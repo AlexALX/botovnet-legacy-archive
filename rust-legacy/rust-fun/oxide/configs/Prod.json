@@ -1,0 +1,16 @@
+{
+  "Messages": {
+    "boxNeedsCode": "Can't find owners of an item without a Code Lock",
+    "codeLockList": "CodeLock whitelist:",
+    "helpProd": "/prod on a building or tool cupboard to know who owns it.",
+    "noAccess": "You don't have access to this command",
+    "noBlockOwnerfound": "No owner found for this building block",
+    "noCodeAccess": "No players has access to this Lock",
+    "noCupboardPlayers": "No players has access to this cupboard",
+    "noTargetfound": "You must look at a tool cupboard or building",
+    "Toolcupboard": "Tool Cupboard"
+  },
+  "Prod": {
+    "authLevel": 1
+  }
+}

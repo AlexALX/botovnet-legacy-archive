@@ -1,0 +1,41 @@
+{
+  "SuicideDeathsMessage": "@{killed} покончил жизнь самоубийством",
+  "playerDeathMessage": "@{killer} убил @{killed} с @{distance}м",
+  "deathByEntityWhileSleepingMessage": "@{killed} был съеден заживо @{killer} во время сна",
+  "wildlifeDeathMessage": "@{killer} убил @{killed} с @{distance}м",
+  "ChatName": "Смерть",
+  "deathByEntityMessage": "@{killer} убил @{killed}",
+  "SuicideDeaths": true,
+  "Settings": {
+    "animalkills": true,
+    "mysql": false,
+    "animaldeaths": true,
+    "players": true
+  },
+  "naturalcausesdeathmessages": {
+    "Hunger": "@{killed} умер от голода.",
+    "Generic": "@{killed} умер.",
+    "Heat": "@{killed} сгорел на костре.",
+    "Bleeding": "@{killed} истёк кровью до смерти.",
+    "Drowned": "@{killed} думал, что он мог дышать под водой.",
+    "Bite": "@{killed} был укушен до смерти.",
+    "Fall": "@{killed} разбился.",
+    "Radiation": "@{killed} умер от радиации.",
+    "Thirst": "@{killed} был слишком жажду и умер.",
+    "Slash": "@{killed} захлебнулся.",
+    "Poison": "@{killed} был отравлен.",
+    "Suicide": "@{killed} покончить жизнь самоубийством.",
+    "BluntTrauma": "@{killed} умер от тупых травм.",
+    "Cold": "@{killed} замерз до смерти.",
+    "Bullet": "@{killed} умер от пули."
+  },
+  "Mysql": {
+    "key": "",
+    "uploadpage": "",
+    "naturalcauses": true,
+    "pve": true,
+    "pvp": true
+  },
+  "naturalcausesdeath": true,
+  "playerDeathWhileSleepingMessage": "@{killer} убил @{killed} во время сна с @{distance}м"
+}

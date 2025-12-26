@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>VIP Info</title>
+<style type="text/css">
+pre 	{
+		font-family:Verdana,Tahoma;
+		color:#FFFFFF;
+    	}
+body	{
+		background:#000000;
+		margin-left:8px;
+		margin-top:0px;
+		}
+a	{
+	color:  #FFFFFF;
+    	text-decoration:    underline;
+	}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+<body scroll="no">
+<pre>
+<b><span style='color:red;font-size:14pt'>Sorry, but VIPS only for russian speaks people.</span></b>
+If you are russian, change you language to russian.
+
+<span style='color:green;font-size:14pt'>Otkroyte 4at ili consol i napishite <b>/lang ru</b> dla smenu yazika.</span>
+
+<span style='color:red'><b>VIP players have (for info):</b></span>
+* Free grenades.
+* Free shield.
+* The cost of all options in the shop in 1.5 times cheaper.
+* Ability to go to the VIP slots.
+* Ability to use the hud chat (admin).
+* Ability to create votes to change map/kick/ban and custom.
+* Ability to write in a chat with a green name.
+
+<b>Available commands:</b> /vip, /vips, /vipinfo, /vipcommands.
+</pre>
+</body>
+</html>
+

@@ -1,0 +1,30 @@
+{
+  "BlockedItems": [],
+  "Settings": {
+    "Version": "1.0.0",
+    "ChatName": "Crafting",
+    "RatePercentageOfNormal": 33,
+    "AdminInstantCraft": false,
+    "AllowModerators": false
+  },
+  "Messages": {
+    "Error": "The new rate must be a number between 0 and 100 where 0 is instant craft and 100 is default!",
+    "Blocked": "{item} is blocked and can not be crafted!",
+    "Crafting": "{item} will complete crafting in {time} seconds!",
+    "UnBlockedItem": "{item} is not blocked!",
+    "InvalidItemB": [
+      "{item} is not a valid item!",
+      "You need to use the name as it appears in the list and use quotes!",
+      "Example: /block \"Camp Fire\""
+    ],
+    "Modify": "Crafting rate is currently {speed}% of the default speed.",
+    "BlockSucces": "{item} has been blocked from crafting!",
+    "UnblockSucces": "{item} is no longer blocked from crafting!",
+    "BlockedItem": "{item} is already blocked!",
+    "InvalidItemU": [
+      "{item} is not a valid item!",
+      "You need to use the name as it appears in the list and use quotes!",
+      "Example: /unblock \"Camp Fire\""
+    ]
+  }
+}

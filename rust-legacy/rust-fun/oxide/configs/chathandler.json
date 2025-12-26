@@ -1,0 +1,96 @@
+{
+  "ChatGroups": {
+    "Admin": {
+      "Color": "#FFA04A",
+      "Permission": "admin",
+      "Prefix": "[Admin]",
+      "ShowColor": true,
+      "ShowPrefix": true
+    },
+    "Donator": {
+      "Color": "#06DCFB",
+      "Permission": "donator",
+      "Prefix": "[$$$]",
+      "ShowColor": true,
+      "ShowPrefix": true
+    },
+    "VIP": {
+      "Color": "#59ff4a",
+      "Permission": "vip",
+      "Prefix": "[VIP]",
+      "ShowColor": true,
+      "ShowPrefix": true
+    }
+  },
+  "Settings": {
+    "AdminMode": {
+      "AdminChatName": "[Server Admin]",
+      "ReplaceChatName": "true"
+    },
+    "AntiSpam": {
+      "EnableAntiSpam": "true",
+      "MaxLines": 4,
+      "TimeFrame": 6
+    },
+    "ChatCommands": {
+      "AdminMode": [
+        "admin"
+      ],
+      "ChatHistory": [
+        "history",
+        "h"
+      ],
+      "GlobalMute": [
+        "globalmute"
+      ],
+      "Mute": [
+        "mute"
+      ],
+      "Unmute": [
+        "unmute"
+      ],
+      "Wordfilter": [
+        "wordfilter"
+      ]
+    },
+    "General": {
+      "AllowedIPsToPost": [],
+      "BlockServerAds": "true",
+      "BroadcastMutes": "false",
+      "ChatHistoryMaxLines": 10,
+      "EnableChatHistory": "false",
+      "Language": "ru",
+      "MaxCharsPerLine": 64
+    },
+    "Groups": {
+      "ColorNamesOnly": "true",
+      "EnableGroups": "false",
+      "PrefixPosition": "left"
+    },
+    "Logging": {
+      "LogBlockedMessages": "true",
+      "LogToConsole": "true",
+      "LogToFile": "false"
+    },
+    "NameColor": {
+      "AdminMode": "#ff8000",
+      "NormalUser": "#5af"
+    },
+    "Permissions": {
+      "AdminMode": "canadminmode",
+      "AntiGlobalMute": "notglobalmuted",
+      "EditWordFilter": "caneditwordfilter",
+      "GlobalMute": "canglobalmute",
+      "Mute": "canmute"
+    },
+    "Wordfilter": {
+      "EnableWordfilter": "false",
+      "ReplaceFullWord": "true"
+    }
+  },
+  "WordFilter": {
+    "bitch": "sweety",
+    "cunt": "****",
+    "fucking hell": "lovely heaven"
+  }
+}

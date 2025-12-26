@@ -1,0 +1,15 @@
+{
+  "Running_Settings": {
+    "On": "true",
+    "StarteventTime": 60,
+    "Reward": "wood",
+    "Random": "true",
+    "Count": 5,
+    "PauseeventTime": 60,
+    "Amount": 10000
+  },
+  "Default": {
+    "ChatName": "EVENT",
+    "authLevel": 2
+  }
+}

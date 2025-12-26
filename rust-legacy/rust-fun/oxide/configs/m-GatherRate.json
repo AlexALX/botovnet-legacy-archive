@@ -1,0 +1,21 @@
+{
+  "Messages": {
+    "GatherRate": "Resources from gathering is set to: x{multiplier}!",
+    "SetGatherRate": "Resources from gathering has been modified, it is now set to: x{multiplier}!",
+    "GatherResourceError": [
+      "To increase the gather rate of a certain resource you need a valid resource name.",
+      "These are the resources you can modify:"
+    ],
+    "HelpTextAdmin": [
+      "Use '/gather' to check the gathering rate!",
+      "Use '/gather <multiplier>' to increase the amount of resources gathered by <multiplier>!"
+    ],
+    "HelpTextPlayer": "Use /gather to check the gathering rate!",
+    "Error": "The new multiplier must be a positive number!"
+  },
+  "Settings": {
+    "Version": "1.2",
+    "GatherMultiplier": 4,
+    "ChatName": "Gatherer"
+  }
+}

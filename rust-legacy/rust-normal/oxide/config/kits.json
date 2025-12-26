@@ -1,0 +1,160 @@
+{
+  "AuthLevel": 1,
+  "AutoKits": {
+    "allowed": true,
+    "belt": [
+      {
+        "amount": 1,
+        "name": "Rock"
+      }
+    ],
+    "main": [],
+    "overrideDefaultKit": false,
+    "RustDefaultKit": [
+      "Torch",
+      "Rock"
+    ],
+    "wear": []
+  },
+  "Kits": {
+    "dom": {
+      "belt": [
+        {
+          "amount": 1,
+          "name": "building_planner"
+        },
+        {
+          "amount": 1,
+          "name": "hammer"
+        }
+      ],
+      "cooldown": 259200,
+      "cooldowntxt": "3 дня",
+      "description": "Набор строителя",
+      "givedesc": "Набор строителя",
+      "main": [
+        {
+          "amount": 8000,
+          "name": "wood"
+        }
+      ]
+    },
+    "starter": {
+      "belt": [
+        {
+          "amount": 1,
+          "name": "spear_stone"
+        },
+        {
+          "amount": 1,
+          "name": "syringe_medical"
+        }
+      ],
+      "cooldown": 43200,
+      "cooldowntxt": "12 часов",
+      "description": "Стартовый набор охотника от Botov.NET.UA",
+      "givedesc": "Стартовый набор",
+      "main": [
+        {
+          "amount": 1,
+          "name": "bandage"
+        },
+        {
+          "amount": 20,
+          "name": "chicken_cooked"
+        },
+        {
+          "amount": 50,
+          "name": "cloth"
+        },
+        {
+          "amount": 200,
+          "name": "wood"
+        }
+      ],
+      "wear": [
+        {
+          "amount": 1,
+          "name": "attire.hide.boots"
+        },
+        {
+          "amount": 1,
+          "name": "attire.hide.poncho"
+        }
+      ]
+    },
+    "vip": {
+      "cooldown": 86400,
+      "cooldowntxt": "1 день",
+      "description": "Набор для <color=#00FF00>VIP</color> игрока",
+      "givedesc": "Набор для VIP игрока",
+      "main": [],
+      "vip": true
+    },
+    "weapon": {
+      "belt": [
+        {
+          "amount": 1,
+          "name": "shotgun_waterpipe"
+        },
+        {
+          "amount": 1,
+          "name": "pistol_revolver"
+        }
+      ],
+      "cooldown": 172800,
+      "cooldowntxt": "2 дня",
+      "description": "Оружейный набор",
+      "givedesc": "Оружейный набор",
+      "main": [
+        {
+          "amount": 30,
+          "name": "ammo_pistol"
+        },
+        {
+          "amount": 20,
+          "name": "ammo_handmade_shell"
+        }
+      ]
+    }
+  },
+  "KitsOrder": [
+    "starter",
+    "weapon",
+    "dom",
+    "vip"
+  ],
+  "Messages": {
+    "CoolDown": "Этот набор все еще недоступен",
+    "ErrorKit": "Этот набор не существует, напишите /kit чтобы получить список всех наборов",
+    "GiveKit": "был успешно использован.",
+    "GiveKitNext": "Следующая активация будет доступна через",
+    "HelpMessage": "/kit - to get the list of kits",
+    "InvalidItem": "Неверный предмет в наборе",
+    "KitList": "Доступные наборы:",
+    "NoKitAvaible": "На данный момент для вас нет доступных наборов.",
+    "NoKitLeft": "Вы не можее больше активировать данный набор",
+    "NoPermissionKit": "Недостаточно прав для использования данного набора"
+  },
+  "Messages: cantUseKit": "Недостаточно прав для использования данного набора.",
+  "Messages: itemNotFound": "Item not found: ",
+  "Messages: kitredeemed": "был успешно использован.",
+  "Messages: kitsreset": "All kits data from players were deleted",
+  "Messages: maxKitReached": "Вы больше не можее активировать данный набор.",
+  "Messages: noAccess": "Недостаточно прав для использования данной команды.",
+  "Messages: unknownKit": "Этот набор не существует, напишите <color=#00FF00>/kit</color> чтобы получить список всех наборов.",
+  "Settings: authLevel": 1,
+  "Settings: kitdisabled": false,
+  "Settings: KitOrder": [
+    "starter",
+    "weapon",
+    "dom",
+    "clan",
+    "vip"
+  ],
+  "Settings: Permissions List": [
+    "vip",
+    "donator",
+    "clan"
+  ]
+}

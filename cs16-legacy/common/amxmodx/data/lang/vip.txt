@@ -1,0 +1,13 @@
+[ru]
+VIP_FILE = %s/vips_ru.txt
+YOU_VIP = Ваш VIP активен до: %s
+YOU_NVIP = Вы не VIP! Напишите /vipinfo чтобы прочитать подробности
+YOU_EVIP = Вы уже не VIP! Дата окончания VIP'а: %s
+VIPS = VIP'ы онлайн
+
+[en]
+VIP_FILE = %s/vips_en.txt
+YOU_VIP = You VIP are active to: %s
+YOU_NVIP = You are not VIP! Type /vipinfo for view details
+YOU_EVIP = You are not VIP! End Date: %s
+VIPS = VIPs online

@@ -1,0 +1,35 @@
+{
+  "ChatName": "SERVER",
+  "Messages": {
+    "Message1": "<color='#ffb400'><size='22'><color='#00FF00'>Наши Rust сервера:</color></size></color>
+<size='15'><color='#FF0000'>botov.net.ua:29015</color> - <color='#ffb400'>Выживание</color> - Стройся и живи
+<color='#FF0000'>botov.net.ua:29020</color> - <color='#ffb400'>Фан Сервер</color> - Отрывайся по полной</size>",
+    "Message2": "<size='15'><color='#00FF00'>Вы играете на сервере </color>- <color='#FF0000'>Botov.NET.UA</color> -<color='#ffb400'> Фан Сервер</color></size>
+----------------
+<color='#ffb400'>Сервер создан для любителей <color='#00FF00'>развлечений</color>.</color>
+* Больше добыча ресурсов, больше стаки.
+* Мгновенное создание предметов.
+* Наборы (kit) с оружием и ресурсами.
+* Телепортация, sethome и прочее.
+<color='#00FF00'>Система прокачки будет приятным бонусом.</color>
+----------------<color='#ffb400'>
+<color='#FF0000'>/help</color> - список доступных команд
+<color='#FF0000'>/info</color> - основная информация о сервере
+<color='#FF0000'>/fc</color> - команда для восстановления чата</color>",
+    "Message3": "<size='20'><color='#00FF00'>Сайт сервера</color> - <color='#FF0000'>Botov.NET.UA</color></size>
+<color='#00FF00'>Официальный канал RaidCall, ID: <color='#ffb400'>11077918</color>.</color>",
+    "Message4": "<color='#00FF00'><size='19'>На сервере работает система прокачки.</size></color>
+<color='#ffb400'><color='#FF0000'>Список доступных команд:</color>
+<color='#00DD00'>/skill about</color> - о системе прокачки
+<color='#00DD00'>/сskill about</color> - о клановой системе прокачки
+<color='#00DD00'>/me</color> - узнать вашу основную информацию (уровень, навыки)
+<color='#00DD00'>/me items</color> - узнать информацию о владении предметами</color>",
+    "Message5": "<color='#00FF00'><size='16'>На сервере присутствует VIP система и онлайн магазин.</size></color>
+<color='#ffb400'>Для всех желающих кто хочет узнать или купить VIP напишите <color='#00DD00'>/vip info</color>.
+Для желающих купить предметы напишите <color='#00DD00'>/bshop</color>.</color>",
+    "Message6": "<color='#ffb400'>Все игроки сервера должны соблюдать <color='#00FF00'>правила сервера</color>.
+Ознакомиться с правилами сервера можно написав <color='#00FF00'>/rules</color>.</color>
+<color='#FF0000'>Незнание правил сервера не освобождает от ответственности.</color>"
+  },
+  "BroadCastInterval": 200
+}

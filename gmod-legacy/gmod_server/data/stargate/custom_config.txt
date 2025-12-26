@@ -1,0 +1,57 @@
+# Config generated using Config Editor from Stargate Settings Menu.
+# Config generator created by AlexALX (c) 2014
+# Carter Addon Pack - http://sg-carterpack.com/
+
+[naq_gen_mk2]
+nuke_explode = false
+
+[mcd]
+tzmp_chance = 5
+
+[ent_groups_only]
+staff_stationary = user,exclude_mod
+dakara_building = superadmin,add_shield
+sg_turret_destsmall = user,exclude_mod
+sg_turret_destmain = admin,superadmin,add_shield,vip,free_vip
+stargate_supergate = admin,superadmin,add_shield,vip,free_vip,moderator
+ori_beam_cannon = user,exclude_mod
+sg_turret_destmed = user,exclude_mod
+sg_vehicle_shuttle = user,exclude_mod
+minidrone_platform = user,exclude_mod
+sg_turret_tollan = admin,superadmin,add_shield,vip,free_vip
+black_hole_power = admin,superadmin,vip,moderator,add_shield
+ag_3 = admin,superadmin,add_shield,vip
+control_chair = user,exclude_mod
+gate_overloader = user,exclude_mod
+asuran_gate_weapon = user,exclude_mod
+sg_turret_shiprail = user,exclude_mod
+sg_vehicle_daedalus = admin,superadmin,add_shield,vip
+horizon = admin,superadmin,add_shield,vip
+stationary_railgun = user,exclude_mod
+puddle_jumper = user,exclude_mod
+ship_hangar = user,exclude_mod
+asgard_beam = user,exclude_mod
+launcher_drones = user,exclude_mod
+transporter = user,exclude_mod
+sg_vehicle_dart = user,exclude_mod
+ori_satellite = user,exclude_mod
+
+[swep_groups_only]
+weapon_wraith = user,exclude_mod
+weapon_dexgun = user,player,exclude_mod
+weapon_asura = user,player,exclude_mod
+wraith_blaster = user,exclude_mod
+weapon_zat = user,exclude_mod
+ori_staff_weapon = user,player,exclude_mod
+weapon_blaster = user,exclude_mod
+weapon_staff = user,exclude_mod
+v_virus = user,exclude_mod
+
+[tool_groups_only]
+ashen_weapon = user,exclude_mod
+wraith_harvester = user,exclude_mod
+naqbomb = admin,superadmin,vip
+tampered_zpm = admin,superadmin,vip
+wraith_bomb = user,exclude_mod
+drones = user,exclude_mod
+staff_weapon = user,exclude_mod

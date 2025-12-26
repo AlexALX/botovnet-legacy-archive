@@ -1,0 +1,17 @@
+[ru]
+NV_ZOMBIE = Зомби уже имеют ночное виденье.
+NV_HAS = Вы уже имеете ночное виденье.
+NV_MONEY = Недостаточно денег чтобы купить ночное виденье (нужно %d$).
+NV_BUY = Вы купили ночное виденье. Нажмите N для активации.
+NV_SELL = Вы продали ночное виденье.
+NV_NHAS = У вас нету ночного виденья.
+NV_SZOMBIE = Зомби не могут продавать ночное виденье.
+
+[en]
+NV_ZOMBIE = Zombies already have nightvision.
+NV_HAS = You already have nightvision.
+NV_MONEY = Not enough money to buy nightvision (%d$ needed).
+NV_BUY = You bought a nightvision. Press N to activate.
+NV_SELL = You sold nightvision.
+NV_NHAS = You have no nightvision.
+NV_SZOMBIE = Zombies can not sell nightvision.

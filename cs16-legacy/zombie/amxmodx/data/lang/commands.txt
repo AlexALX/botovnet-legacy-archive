@@ -1,0 +1,285 @@
+[ru]
+TEXT3 = АДМИНИСТРАТОР вывел игроку %s %s
+TEXT4 = АДМИНИСТРАТОР %s вывел игроку %s %s
+HELP_MOTD_C :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFF;
+			}
+			body
+			{
+				background:#000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+	<body>
+		<pre>
+			<h1>Команды сервера</h1>^n
+			<b>Как биндить кнопки?</b>^n
+			Открываем консоль и пишем:^n
+			bind "кнопка" "команда"^n
+			<b>Список команд ниже.</b>^n^n
+			<b>Чат/консоль:</b>^n^n
+			/menu - основное меню biohazard'а^n
+			/lang - сменить язык^n
+			/shop - открыть магазин^n
+			/help - посмотреть информацию^n
+			/class - выбрать класс зомби^n
+			/guns - активации меню скупки оружия^n
+			/rules - просмотр правил сервера^n
+			stim_info - информация о стимуляторе^n
+			buy_pr/sell_pr - купить/продать парашют^n
+			buy_lj/sell_lj - купить/продать lonjgump^n
+			buy_hp - мед аптечка^n
+			buy_ap - броня^n
+			buy_shield - щит^n
+			buy_zombie - заразить себя^n
+			buy_human - купить антивирус^n
+			buy_fl - улучшенный фонарик^n
+			buy_cfl - цветной фонарик^n
+			buy_bfl - батарейки для фонарика^n
+			buy_life - возродиться^n
+			buy_exg - огнетушитель^n
+			buy_snark - жук^n
+			resetlaser - снять свои лазера^n^n
+			Нажмите кнопку "V" чтобы поставить лазер.^n^n
+			<b>Консоль:</b>^n^n
+			Админам - amx_commands^n
+		</pre>
+	</body>
+</html>
+:
+
+HELP_MOTD_A :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+			<h1>Команды для админов</h1>^n
+			<b>Несколько команд:</b>^n^n
+			amx_infect nick - заразить игрока^n
+			amx_human nick - сделать человеком игрока^n
+			amx_rl (amx_resetlaser) nick/#userid/@all - убрать лазеры у игрока^n
+			amx_lj (amx_longjump) nick/#userid/@all - дать игроку longjump^n
+			amx_dlj (amx_dellongjump) nick/#userid/@all - забрать у игрока longjump^n
+			amx_pr (amx_parachute) nick/#userid/@all - дать игроку парашют^n
+			amx_dpr (amx_delparachute) nick/#userid/@all - забрать у игрока парашют^n
+			amx_el (amx_explode) nick/#userid/@all - взорвать лазеры у игрока^n
+			amx_snark nick/#userid/@all - дать игру жука (снарка)^n
+			amx_chscore nick/@CT/@TERRORIST frags deaths - изменить счёт у игрока^n
+			amx_money nick/@team/#userid/@ALL money - выдать игроку(ам) денег^n
+			amx_usercmd nick 0 - вывести игроку:^n
+			0 - /help, 1 - /commands, 2 - /rules
+		</pre>
+	</body>
+</html>
+:
+
+HELP_MOTD_R :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+	<body>
+		<pre><h1><b>Правила</b></h1>^n
+<b>Запрещено:</b>^n
+Использование чит-скриптов и чит-программ^n
+Подрыв синих лазеров людьми^n
+Подрыв красных лазеров, если при этом есть вероятность гибели игрока^n
+Установка лазера на игрока^n
+Мешать игре других участников^n
+Устанавливать больше 2х лазеров^n
+Использование багов карт(запретных территорий)^n
+Спам (реклама)^n
+Мат в сторону игроков/администрации^n
+Флуд (в том числе по микрофону)^n
+Просить админа дать денег и прочего (попрошайничество)^n^n
+<b>X-TIME</b>^n
+Начинается с 23^:00 по Киеву (0^:00 по Москве), заканчивается в 6^:00 (7^:00 по Москве)^n
+<b>в это время:</b>^n
+-запрещена стрельба по любым лазерам, их подрыв/снятие^n
+-зомби разрешено разбивать лазеры^n^n
+Администратор может не отвечать на вопросы игроков и помогать игрокам.^n</pre>
+	</body>
+</html>
+:
+
+[en]
+TEXT3 = ADMIN wrote %s %s
+TEXT4 = ADMIN %s wrote %s %s
+HELP_MOTD_C :
+<html>
+	<head>
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+			<h1>Server Commands</h1>^n
+			<b>How bind buttons?</b>^n
+			Open console end write:^n
+			bind "button" "command"^n
+			<b>List of commands below.</b>^n^n
+			<b>Commands (chat/console):</b>^n^n
+			/menu - open main biohazard menu^n
+			/lang - select language^n
+			/shop - open shop menu^n
+			/help - open help motd^n
+			/class - open class menu^n
+			/guns - enable the equip menu^n
+			/rules - view rules of server^n
+			stim_info - info about stimulators^n
+			buy_pr/sell_pr - buy/sold parachute^n
+			buy_lj/sell_lj - buy/sold longjump^n
+			buy_hp - buy medical kit^n
+			buy_ap - buy armor^n
+			buy_shield (buy_shut) - buy shield^n
+			buy_zombie - infect youself^n
+			buy_human - buy antivirus^n
+			buy_fl - improved flashlight^n
+			buy_cfl - colored flashlight^n
+			buy_bfl - batteries for flashlight^n
+			buy_life - buy life^n
+			buy_exg - extinguisher^n
+			buy_snark - snark^n
+			resetlaser - sold you lasers.^n^n
+			Press "V" to set laser.^n^n
+			<b>Console Commands:</b>^n^n
+			For admins - amx_commands^n^n^n
+		</pre>
+	</body>
+</html>
+:
+
+HELP_MOTD_A :
+<html>
+	<head>
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+			<h1>Admin Commands</h1>^n
+			<b>Dopolnitelniye komandu:</b>^n^n
+			amx_infect nick - infect igroka^n
+			amx_human nick 0 - sdelat 4elovekom igroka^n
+			amx_rl (amx_resetlaser) nick/#userid/@all - ubrat lasery u igroka^n
+			amx_lj (amx_longjump) nick/#userid/@all - dat igroky longjump^n
+			amx_dlj (amx_dellongjump) nick/#userid/@all - zabrat y igroka longjump^n
+			amx_pr (amx_parachute) nick/#userid/@all - dat igroky parachut^n
+			amx_dpr (amx_delparachute) nick/#userid/@all - zabrat y igroka parachut^n
+			amx_el (amx_explode) nick/#userid/@all - vzorvat lasery u igroka^n
+			amx_snark nick/#userid/@all - dat' igroky jika (snarka)^n
+			amx_chscore nick/@CT/@TERRORIST frags deaths - izmenit s4ot u igroka^n
+			amx_money nick/@team/#userid/@ALL money - vidat' igroky(am) deneg^n
+			amx_usercmd nick 0 - vuvesti igroky:^n
+			0 - /help, 1 - /commands, 2 - /rules
+		</pre>
+	</body>
+</html>
+:
+
+HELP_MOTD_R :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+<h1><b>Server Rules</b></h1>^n
+<b>Following actions and things are prohibited:</b>^n
+Using cheats, scripts and other self-programs^n
+Blowing blue lasermines by shooting^n
+Blowing red lasermines by shooting in case if human death is probable^n
+Setting up LM on player^n
+To prevent other players from playing^n
+Setting up more than 2 LM (equal to cheating)^n
+Using bags of maps (sach as restricted area)^n
+Flood, spam and advertising^n
+Insult with respect to players/admins^n
+Ask the admin to give the player money and other things (begging)^n^n
+<b>“X-TIME”</b> is provided on server from 11:pm (+2 GMT) till 6:am (+2 GMT)^n
+<b>At this time:</b>^n
+- Shooting, resetting and blowing all type LM are prohibited^n
+- Zombie are allowed to crash LM.^n^n
+Admin can help players.^n
+Admin can not answer questions from players.^n
+		</pre>
+	</body>
+</html>
+:

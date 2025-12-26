@@ -1,0 +1,29 @@
+{
+  "Default": {
+    "Kit": "deathmatch"
+  },
+  "Messages": {
+    "Empty": "Арена больше не имеет игроков, авто-закрытие.",
+    "Kill": "{0} убил {3}. ({1}/{2} убийств)",
+    "OpenBroadcast": "В режиме Deathmatch, каждый сам за себя, вам необходимо убить как можно больше игроков!",
+    "Won": "{0} ВЫИГРАЛ DEATHMATCH"
+  },
+  "Settings": {
+    "EventName": "Deathmatch",
+    "EventSpawnFile": "DeathmatchSpawnfile",
+    "Start Health": "100",
+    "Win Kills": "10"
+  },
+  "Zone Settings": {
+    "Auto Lights": "true",
+    "Erase Corpses": "true",
+    "Kill Sleepers": "true",
+    "Refuse Build": "true",
+    "Refuse Deploy": "true",
+    "Refuse Kit Redeem from /kit": "true",
+    "Refuse Suicide": "true",
+    "Refuse Teleportations": "true",
+    "Reject None Players": "true",
+    "Undestructible": "true"
+  }
+}

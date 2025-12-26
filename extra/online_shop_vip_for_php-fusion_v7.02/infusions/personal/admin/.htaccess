@@ -1,0 +1,6 @@
+AuthName "Enter password"
+AuthType Basic
+AuthUserFile "/var/www/.htpasswd"
+require user site-login
+
+ErrorDocument 401 default

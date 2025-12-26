@@ -1,0 +1,21 @@
+[ru]
+SERVER_CMD_TITLE = Выберите наш сервер:
+SERVER_CMD_CURRENT = текущий
+SERVER_CMD_INFO = Сайт серверов: \ybotov.net.ua
+SERVER_CMD_PLAYER = Игрок %s перешёл на %s сервер (%s).
+SERVER_CMD_PLAYERN = Игрок %s не может быть перемещён на %s сервер (%s).
+SERVER_CMD_MANUAL = Для перехода на %s сервер пропишите в консоли Connect %s.
+SERVER_CMD_EXIT = Выход
+SERVER_CMD_CLOSED = (закрыт)
+SERVER_CMDS = Сервера
+
+[en]
+SERVER_CMD_TITLE = Choose one of our servers:
+SERVER_CMD_CURRENT = Current
+SERVER_CMD_INFO = Site of servers: \ybotov.net.ua \r(Only Russian)
+SERVER_CMD_PLAYER = Player %s go to %s server (%s).
+SERVER_CMD_PLAYERN = Player %s can't be redirected to %s server (%s).
+SERVER_CMD_MANUAL = To go to the %s server write manualy in console: Connect %s.
+SERVER_CMD_EXIT = Exit
+SERVER_CMD_CLOSED = (closed)
+SERVER_CMDS = Server's

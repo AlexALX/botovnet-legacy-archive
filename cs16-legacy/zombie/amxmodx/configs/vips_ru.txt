@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>VIP Info</title>
+<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+a	{
+    	text-decoration:    underline;
+	color:  #FFFFFF;
+	}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body scroll="no">
+<pre>
+Все игроки на <span style='color:red'><b>Botov-NET</b></span> могут купить VIP аккаунт для <b>Biohazard</b> и <b>DeathRun</b> серверов.
+
+<span style='color:red'><b>VIP игрок получает:</b></span>
+* Бесплатный набор гранат.
+* Бесплатный щит.
+* Стоимость всех опций шопа в 1.5 раза дешевле.
+* Возможность заходить на VIP слоты.
+* Возможность использовать hud чат (админский).
+* Возможность создания голосований на смену карты/кик/бан и собственное.
+* Возможность писать в чате с зелёным ником.
+
+<span style='color:green'><b>Стоимость услуги:</b></span>
+2 Недели - 15 гривен (80 рублей).
+1 Месяц - 30 гривен (160 рублей).
+
+<b>Доступные команды:</b> /vip, /vips, /vipinfo, /vipcommands.
+
+<b>Подробнее</b>: <u>http://botov.net.ua/vip</u>
+</pre>
+</body>
+</html>

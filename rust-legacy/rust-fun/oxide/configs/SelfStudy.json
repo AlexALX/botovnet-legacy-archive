@@ -1,0 +1,177 @@
+{
+  "profs": {
+    "Tree": {
+      "Name": [
+        "лесоруба",
+        "Лесоруб"
+      ],
+      "ResourceName": "Tree",
+      "Div": 12.0,
+      "Skills": {
+        "Tree": {
+          "Desc": "добыча дерева",
+          "Mul": 5.0,
+          "MulTxt": "x"
+        }
+      }
+    },
+    "Ore": {
+      "Name": [
+        "каменоломщика",
+        "Каменоломщик"
+      ],
+      "ResourceName": "Ore",
+      "Div": 22.0,
+      "Skills": {
+        "Ore": {
+          "Desc": "добыча камня",
+          "Mul": 5.0,
+          "MulTxt": "x"
+        }
+      }
+    },
+    "Flesh": {
+      "Name": [
+        "охотника",
+        "Охотник"
+      ],
+      "ResourceName": "Flesh",
+      "Div": 3.0,
+      "Skills": {
+        "Flesh": {
+          "Desc": "добыча животных",
+          "Mul": 5.0,
+          "MulTxt": "x"
+        }
+      }
+    },
+    "Kill": {
+      "Name": [
+        "убийцы",
+        "Убийца"
+      ],
+      "ResourceName": "Kill",
+      "Div": 3.0,
+      "Skills": {
+        "Kill": {
+          "Desc": "урон игрокам",
+          "Mul": 1.25,
+          "MulTxt": "+"
+        }
+      }
+    },
+    "Build": {
+      "Name": [
+        "строителя",
+        "Строитель"
+      ],
+      "ResourceName": "Build",
+      "Div": 3.0,
+      "Skills": {
+        "Build": {
+          "Desc": "стоимость постройки",
+          "Mul": 0.75,
+          "MulTxt": "-"
+        }
+      }
+    }
+  },
+  "settings": {
+    "StartGatherX": 2.0,
+    "WeaponCondX": 0.5,
+	"XPMul": 1.0,
+  },
+  "skills": {
+    "power": {
+      "Name": "Сила",
+      "Points": 100,
+      "Skills": {
+        "damage": {
+          "Desc": "урон",
+          "Mul": 1.25,
+          "MulTxt": "+"
+        }
+      },
+      "MinLvl": 0,
+      "Spaces": 6
+    },
+    "defence": {
+      "Name": "Защита",
+      "Points": 100,
+      "Skills": {
+        "defence": {
+          "Desc": "оборона",
+          "Mul": 1.25,
+          "MulTxt": "+"
+        }
+      },
+      "MinLvl": 0,
+      "Spaces": 5
+    },
+    "lovk": {
+      "Name": "Ловкость",
+      "Points": 95,
+      "Skills": {
+        "lovk": {
+          "Desc": "шанс уклонения",
+          "Mul": 1.1,
+          "MulTxt": ""
+        }
+      },
+      "MinLvl": 0,
+      "Spaces": 4
+    },
+    "kuznec": {
+      "Name": "Кузнец",
+      "Points": 95,
+      "Skills": {
+        "kuznec": {
+          "Desc": "",
+          "Mul": 1.5,
+          "MulTxt": "+"
+        }
+      },
+      "MinLvl": 0,
+      "Spaces": 4
+    },
+    "master": {
+      "Name": "Мастер",
+      "Points": 90,
+      "Skills": {
+        "total": {
+          "Desc": "бонус ко всему",
+          "Mul": 1.05,
+          "MulTxt": "+"
+        }
+      },
+      "MinLvl": 0,
+      "Spaces": 5
+    },
+    "vinos": {
+      "Name": "Выносливость",
+      "Points": 70,
+      "Skills": {
+        "vinos": {
+          "Desc": "",
+          "Mul": 1.5,
+          "MulTxt": "+"
+        }
+      },
+      "MinLvl": 0,
+      "Spaces": 1
+    },
+    "stalker": {
+      "Name": "Сталкер",
+      "Points": 60,
+      "Skills": {
+        "rad": {
+          "Desc": "устойчивость к радиации",
+          "Mul": 1.5,
+          "MulTxt": "+"
+        }
+      },
+      "MinLvl": 30,
+      "Spaces": 4
+    }
+  }
+}

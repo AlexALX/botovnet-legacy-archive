@@ -1,0 +1,13 @@
+{
+  "Messages": {
+    "NoGodDamagePlayer": "{player} только что попытался повредить вас.",
+    "HelpMessage": "/god - This command will toggle godmode on or off.",
+    "Enabled": "You have enabled godmode!",
+    "NoGodDamageAttacker": "Этот игрок сейчас в режиме бога, вы не можете повредить его.",
+    "Disabled": "You have disabled godmode!"
+  },
+  "Settings": {
+    "ChatName": "God",
+    "Version": "1.4.3"
+  }
+}

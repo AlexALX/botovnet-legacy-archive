@@ -1,0 +1,9 @@
+[ru]
+AFK1 = [AFK Kicker] Вы будете кикнуты через %i секунд если вы не пошевелитесь (AFK).
+AFK2 = [AFK Kicker] %s был кикнут, причина: AFK (%i секунд)
+AFK3 = %s был кикнут, причина: AFK (%i секунд)
+
+[en]
+AFK1 = [AFK Kicker] You have %i seconds to move or you will be kicked for being AFK.
+AFK2 = [AFK Kicker] %s was kicked for being AFK longer than %i seconds
+AFK3 = %s was kicked for being AFK longer than %i seconds

@@ -1,0 +1,19 @@
+{
+  "Settings": {
+    "Calories": {
+      "maxValue": 1000,
+      "spawnValue": "default",
+      "loseRate": "default"
+    },
+    "Health": {
+      "maxValue": 100,
+      "spawnValue": "default",
+      "gainRate": "default"
+    },
+    "Hydration": {
+      "maxValue": 1000,
+      "spawnValue": "default",
+      "loseRate": "default"
+    }
+  }
+}

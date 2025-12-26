@@ -1,0 +1,35 @@
+[ru]
+SNARK_MONEY = У вас недостаточно денег чтобы купить жука (снарка) (нужно $%i).
+SNARK_BUY = Вы успешно купили жука (снарка).
+SNARK_BUY2 = Вы успешно породили жука (снарка).
+SNARK_HUMAN = Только зомби могут покупать жуков (снарков).
+SNARK_ALIVE = Только живые могут покупать жуков (снарков).
+SNARK_ROUND = Жуков (снарков) можно купить только 3 раза за раунд.
+SNARK_MAX = Невозможно породить жука (снарка), не более 2-х одновременно.
+SNARK_7 = АДМИНИСТРАТОР выдал жука (снарка) %s
+SNARK_8 = АДМИНИСТРАТОР %s выдал жука (снарка) %s
+SNARK_7A = АДМИНИСТРАТОР выдал всем жуков (снарков)
+SNARK_8A = АДМИНИСТРАТОР %s выдал всем жуков (снарков)
+SNARK_HP = У вас недостаточно здоровья чтобы породить жука (снарка) (нужно %i hp).
+SNARK_TIME = Невозможно породить снарка, только раз в 30 секунд (%0.f сек осталось).
+SNARK_NOSTARTED = Игра ещё не началась.
+SNARK_VIPMAX = Только випы могут носить более 1 снарка одновременно.
+SNARK_VIP2 = Для более подробной информации напишите /vipinfo.
+
+[en]
+SNARK_MONEY = You don't have enough money to buy the Snark ($%i needed).
+SNARK_BUY = You have successfully bought the Snark.
+SNARK_BUY2 = You have successfully created the Snark.
+SNARK_HUMAN = Only zombies can buy Snarks.
+SNARK_ALIVE = Only the alive can buy Snarks.
+SNARK_ROUND = Snark can be bought only 3 times per round.
+SNARK_MAX = Unable to create Snark, you can have only 2 at the same time.
+SNARK_7 = ADMIN: give snark %s
+SNARK_8 = ADMIN %s: give snark %s
+SNARK_7A = ADMIN: give snark to all
+SNARK_8A = ADMIN %s: give snark to all
+SNARK_HP = You don't have enough health to create the Snark (%i hp needed).
+SNARK_TIME = Unable to create Snark, only once in 30 seconds (%0.f seconds left).
+SNARK_NOSTARTED = Game not started yet.
+SNARK_VIPMAX = Only vips can have more than one snark at same time.
+SNARK_VIP2 = For more information type /vipinfo.

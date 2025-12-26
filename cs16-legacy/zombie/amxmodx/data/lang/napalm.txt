@@ -1,0 +1,17 @@
+[ru]
+NAPALM_MONEY = У вас недостаточно денег чтобы купить огнетушитель. (нужно $%i).
+NAPALM_HAVE = Огнетушитель можно купить только 2 раза за раунд, вы уже покупали его.
+NAPALM_BUY = Вы купили и использовали огнетушитель.
+NAPALM_ZOMBS = Данный класс имеет иммунитет к огню.
+NAPALM_HUMAN = Только зомби могут покупать огнетушитель.
+NAPALM_ALIVE = Только живые зомби могут покупать огнетушитель.
+NAPALM_NOFIRE = Вы не горите! Покупка огнетушителя невозможна.
+
+[en]
+NAPALM_MONEY = You don't have enough money to buy a extinguisher. ($%i needed).
+NAPALM_HAVE = Extinguisher can be bought only 2 time per round, you've already bought it.
+NAPALM_BUY = You have bought and used a fire extinguisher.
+NAPALM_ZOMBS = This class is immune to fire.
+NAPALM_HUMAN = Only zombies can buy a fire extinguisher.
+NAPALM_ALIVE = Only alive zombies can buy a fire extinguisher.
+NAPALM_NOFIRE = You do not burn! Purchase a extinguisher is not possible.

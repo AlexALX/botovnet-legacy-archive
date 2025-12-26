@@ -1,0 +1,9 @@
+{
+  "BroadCastInterval": 600,
+  "ChatName": "Info",
+  "Messages": {
+    "Message1": "Please do not grief other players",
+    "Message2": "New plugins are added all the time. type /help for info",
+    "Message3": "This is an example global broadcast"
+  }
+}

@@ -1,0 +1,15 @@
+[ru]
+EB_ZOMBIE = Зомби не могут покупать это.
+EB_HAS = Вы уже имеете разрывные пули.
+EB_MONEY = Недостаточно денег чтобы купить разрывные пули (нужно %d$).
+EB_BUY = Вы купили разрывные пули. Ваш урон увеличен на 40%.
+EB_VIP = Извините, но данная функция только для вип пользователей.
+EB_VIP2 = Для более подробной информации напишите /vipinfo.
+
+[en]
+EB_ZOMBIE = Zombies can't buy this item.
+EB_HAS = You already have explosive bullets.
+EB_MONEY = Not enough money to buy explosive bullets (%d$ needed).
+EB_BUY = You bought a explosive bullets. Your damage is increased by 40%.
+EB_VIP = Sorry, but this function only for vip users.
+EB_VIP2 = For more information type /vipinfo.

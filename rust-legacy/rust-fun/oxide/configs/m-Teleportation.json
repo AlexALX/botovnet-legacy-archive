@@ -1,0 +1,215 @@
+{
+  "AdminTP": {
+    "AnnounceTeleportToTarget": false,
+    "LocationRadius": 25,
+    "TeleportNearDefaultDistance": 30,
+    "UseableByModerators": false
+  },
+  "Homes": {
+    "CheckFoundationForOwner": true,
+    "Cooldown": 600,
+    "Countdown": 30,
+    "DailyLimit": 20,
+    "ForceOnTopOfFoundation": true,
+    "HomesLimit": 3,
+    "LocationRadius": 25,
+    "UseFriendsAPI": true
+  },
+  "Messages": {
+    "Accept": "{player} принял ваш запрос! Телепортация через {countdown} секунд!",
+    "AcceptOnRoof": "Вы не можете принять телепорт пока вы находитесь на потолке, спуститесь на землю!",
+    "AcceptTarget": "Вы приняли запрос на телепортацию от {player}!",
+    "AdminLocationList": "The following locations are available:",
+    "AdminLocationListEmpty": "You haven't saved any locations!",
+    "AdminTP": "You teleported to {player}!",
+    "AdminTPBack": "You've teleported back to your previous location!",
+    "AdminTPBackSave": "Your previous location has been saved, use /tpb to teleport back!",
+    "AdminTPBoundaries": "X and Z values need to be between -{boundary} and {boundary} while the Y value needs to be between -100 and 2000!",
+    "AdminTPConsoleTP": "You were teleported to {destination}",
+    "AdminTPConsoleTPPlayer": "You were teleported to {player}",
+    "AdminTPCoordinates": "You teleported to {coordinates}!",
+    "AdminTPLocation": "You teleported to {location}!",
+    "AdminTPLocationRemove": "You have removed the location {location}!",
+    "AdminTPLocationSave": "You have saved the current location!",
+    "AdminTPOutOfBounds": "You tried to teleport to a set of coordinates outside the map boundaries!",
+    "AdminTPPlayer": "{admin} teleported you to {player}!",
+    "AdminTPPlayers": "You teleported {player} to {target}!",
+    "AdminTPPlayerTarget": "{admin} teleported {player} to you!",
+    "AdminTPTarget": "{player} телепортирован к вам!",
+    "AdminTPTargetCoordinates": "You teleported {player} to {coordinates}!",
+    "AdminTPTargetCoordinatesTarget": "{admin} teleported you to {coordinates}!",
+    "CantTeleportPlayerToSelf": "You can't teleport a player to himself!",
+    "CantTeleportToSelf": "Ві не можете телепортироваться к себе!",
+    "HomeExists": "Вы уже сохранили дом с таким названием!",
+    "HomeExistsNearby": "Дом с названием {name} уже существует рядом с этой позицией!",
+    "HomeFoundationNotFriendsOwned": "Вы должны быть в своём доме или доме своего друга чтобы установить дом!",
+    "HomeFoundationNotOwned": "Вы не можете установить ваш дом в чужом доме.",
+    "HomeList": "Следующие дома доступны:",
+    "HomeListEmpty": "Вы не имеете сохранёных домов!",
+    "HomeMaxLocations": "Невозможно установить дом, вы достигли лимита в {amount} дома!",
+    "HomeNotFound": "Дом с данным названием не найден!",
+    "HomeRemove": "Вы удалили дом с названием {home}!",
+    "HomeSave": "Вы сохранили текущую позицию как ваш дом!",
+    "HomeSaveFoundationOnly": "Вы можете сохранить дом только на фундаменте!",
+    "HomesListWiped": "You have wiped all the saved home locations!",
+    "HomeTP": "Вы телепортированы к вашему дому '{home}'!",
+    "HomeTPCooldown": "Вам телепорт остывает. Вы должны подождать {time} до следующей телепортации.",
+    "HomeTPLimitReached": "Вы достигли лимит в {limit} телепортации за сутки!",
+    "HomeTPStarted": "Телепортация к вашему дому {home} через {countdown} секунд!",
+    "Interrupted": "Ваш телепорт был прерван!",
+    "InterruptedTarget": "{player}'s teleport was interrupted!",
+    "InvalidCharacter": "Вы использовали неверный символ, пожалуйста ограничтесь буквами от a до z и цифрами.",
+    "InvalidCoordinates": "The coordinates you've entered are invalid!",
+    "InvalidHelpModule": "Задан неверный модуль!",
+    "LocationExists": "A location with this name already exists at {location}!",
+    "LocationExistsNearby": "A location with the name {name} already exists near this position!",
+    "LocationNotFound": "Couldn't find a location with that name!",
+    "MultiplePlayersFound": "Найдено несколько игроков с таким ником!",
+    "NoPendingRequest": "Вы не имеете ожидающих запросов!",
+    "NoPreviousLocationSaved": "No previous location saved!",
+    "PendingRequest": "Вы уже имеете активный запрос, отмените запрос или подождите пока он будет принят или истечёт!",
+    "PendingRequestTarget": "Игрок к которому вы хотите телепортировать уже имеет ожидающий запрос, попробуйте позже!",
+    "PlayerNotFound": "Указаный игрок не найден, попробуйте ещё раз!",
+    "Request": "Вы запросили телепортацию к игроку {player}!",
+    "RequestTarget": "{player} запросил телепорт к вам! Используйте команду '/tpa' чтобы принять его!",
+    "Success": "Вы телепортированы к {player}!",
+    "SuccessTarget": "{player} телепортирован к вам!",
+    "SyntaxCommandHome": [
+      "Ошибка синтаксиса!",
+      "Вы можете использовать команду /home только так:",
+      "/home <название_дома> - Телепортировать себя к вашему дому с названием 'название_дома'."
+    ],
+    "SyntaxCommandListHomes": [
+      "Ошибка синтаксиса!",
+      "Вы можете использовать команду /listhomes только так:",
+      "/listhomes - Показать список сохранёных домов."
+    ],
+    "SyntaxCommandRemoveHome": [
+      "Ошибка синтаксиса!",
+      "Вы можете использовать команду /removehome только так:",
+      "/removehome <название_дома> - Удалить сохранёный дом с названием 'название_дома'."
+    ],
+    "SyntaxCommandSetHome": [
+      "Ошибка синтаксиса!",
+      "Вы можете использовать команду /sethome только так:",
+      "/sethome <название_дома> - Сохранить текущую позицию как ваш дом с названием 'название_дома'."
+    ],
+    "SyntaxCommandTP": [
+      "A Syntax Error Occurred!",
+      "You can only use the /tp command as follows:",
+      "/tp <targetplayer> - Teleports yourself to the target player.",
+      "/tp <player> <targetplayer> - Teleports the player to the target player.",
+      "/tp <x> <y> <z> - Teleports you to the set of coordinates.",
+      "/tp <player> <x> <y> <z> - Teleports the player to the set of coordinates."
+    ],
+    "SyntaxCommandTPA": [
+      "Ошибка синтаксиса!",
+      "Вы можете использовать команду /tpa только так:",
+      "/tpa - Принять входящий запрос на телепортацию."
+    ],
+    "SyntaxCommandTPL": [
+      "A Syntax Error Occurred!",
+      "You can only use the /tpl command as follows:",
+      "/tpl - Shows a list of saved locations.",
+      "/tpl <location name> - Teleports you to a saved location."
+    ],
+    "SyntaxCommandTPN": [
+      "A Syntax Error Occurred!",
+      "You can only use the /tpn command as follows:",
+      "/tpn <targetplayer> - Teleports yourself the default distance behind the target player.",
+      "/tpn <targetplayer> <distance> - Teleports you the specified distance behind the target player."
+    ],
+    "SyntaxCommandTPR": [
+      "Ошибка синтаксиса!",
+      "Вы можете использовать команду /tpr только так:",
+      "/tpr <ник> - Отправить запрос на телепортацию к игроку с указаным ником."
+    ],
+    "SyntaxCommandTPRemove": [
+      "A Syntax Error Occurred!",
+      "You can only use the /tpremove command as follows:",
+      "/tpremove <location name> - Removes the location with the name 'location name'."
+    ],
+    "SyntaxCommandTPSave": [
+      "A Syntax Error Occurred!",
+      "You can only use the /tpsave command as follows:",
+      "/tpsave <location name> - Saves your current position as 'location name'."
+    ],
+    "SyntaxConsoleCommandToPlayer": [
+      "A Syntax Error Occurred!",
+      "You can only use the teleport.toplayer console command as follows:",
+      " > teleport.toplayer \"player\" \"target player\""
+    ],
+    "SyntaxConsoleCommandToPos": [
+      "A Syntax Error Occurred!",
+      "You can only use the teleport.topos console command as follows:",
+      " > teleport.topos \"player\" x y z"
+    ],
+    "TargetDisconnected": "{player} вышел, телепорт отменён!",
+    "TeleportPending": "Вы не можете начать другой телепорт пока вы имеете запрос на телепорт!",
+    "TeleportPendingTarget": "Вы не можете запросить телепорт к кому-то кто вот-вот телепортируется!",
+    "TimedOut": "{player} не ответил на ваш запрос вовремя!",
+    "TimedOutTarget": "Вы не ответили на запрос {player} вовремя!",
+    "TPHelp": {
+      "admintp": [
+        "As an admin you have access to the following commands:",
+        "/tp <targetplayer> - Teleports yourself to the target player.",
+        "/tp <player> <targetplayer> - Teleports the player to the target player.",
+        "/tp <x> <y> <z> - Teleports you to the set of coordinates.",
+        "/tpl - Shows a list of saved locations.",
+        "/tpl <location name> - Teleports you to a saved location.",
+        "/tpsave <location name> - Saves your current position as the location name.",
+        "/tpremove <location name> - Removes the location from your saved list.",
+        "/tpb - Teleports you back to the place where you were before teleporting."
+      ],
+      "General": [
+        "Пожалуйста уточните по какому модулю вы хотите получить помощь.",
+        "Доступные модули: "
+      ],
+      "home": [
+        "С помощью этих команд вы можете установить дом и телепортировать к нему:",
+        "/sethome <название_дома> - Сохранить текущую позицию как ваш дом с указаным названием.",
+        "/listhomes - Показать список ваших сохранёных домов.",
+        "/removehome <название_дома> - Удалить сохранёный дом с указаным названием.",
+        "/home <название_дома> - Телепортировать вас к дому с указаным названием."
+      ],
+      "tpr": [
+        "С помощью этих команд вы можете запросить телепорт к игроку или подвердить чей-то запрос:",
+        "/tpr <ник> - Послать запрос на телепортацию к игроку.",
+        "/tpa - Принять входящий запрос на телепортацию к вам."
+      ]
+    },
+    "TPRCooldown": "На данный момент запрос на телепрт остывает. Вы должны подождать {time} для отправки следующего запроса.",
+    "TPRLimitReached": "Вы достинги лимита в {limit} телепортаций за сутки!",
+    "TPSettings": {
+      "General": [
+        "Укажите модуль по которому вы хотите просмотреть информацию. ",
+        "Доступные модули: "
+      ],
+      "home": [
+        "Текущие настройки для сохранения точек дома: ",
+        "Время между телепортациями: {cooldown}",
+        "Телепортаций в день: {limit}",
+        "Точек для дома: {amount}"
+      ],
+      "tpr": [
+        "Текущие настройки для ТП между игроками: ",
+        "Время между телепортациями: {cooldown}",
+        "Телепортаций в день: {limit}"
+      ]
+    }
+  },
+  "Settings": {
+    "ChatName": "Телепортация",
+    "ConfigVersion": "1.4.15",
+    "HomesEnabled": true,
+    "InterruptTPOnHurt": true,
+    "TPREnabled": true
+  },
+  "TPR": {
+    "BlockTPAOnCeiling": true,
+    "Cooldown": 300,
+    "Countdown": 30,
+    "DailyLimit": 30,
+    "RequestDuration": 30
+  }
+}

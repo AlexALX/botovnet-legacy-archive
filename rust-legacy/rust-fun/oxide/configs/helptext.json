@@ -1,0 +1,39 @@
+{
+  "CustomHelpText": [
+    "<color='#00FF00'><size='26'>Список доступных команд:</size></color>
+
+<color='#00FF00'>/info</color> - <color='#ffb400'>основная информация о сервере</color>
+<color='#00FF00'>/rules</color> - <color='#ffb400'>правила сервера</color>
+<color='#00FF00'>/server</color> - <color='#ffb400'>сервера проекта <color='#FF0000'>Botov.NET.UA</color></color>
+<color='#00FF00'>/kit</color> - <color='#ffb400'>список доступных наборов</color>
+<color='#FF0000'>/rnditem</color> - <color='#ffb400'>обмен крови и метал слитков на случайный предмет</color>
+<color='#00FF00'>/ad</color> <off/время> - <color='#ffb400'>выключить/установить время для автоматического закрытия дверей</color>
+<color='#FF0000'>/fc</color> - <color='#ffb400'>команда для восстановления чата</color>",
+"<color='#FF0000'>/log</color> - <color='#ffb400'>как узнать кто вас убил</color>
+<color='#FF0000'>/vip info</color> - <color='#ffb400'>информация о вип аккаунтах</color>
+<color='#FF0000'>/bshop</color> - <color='#ffb400'>информация о онлайн магазине, получение предметов</color>
+<color='#00FF00'>/skill</color> - <color='#ffb400'>информация о системе прокачки</color>
+<color='#00FF00'>/сskill</color> - <color='#ffb400'>информация о клановой системе прокачки</color>
+<color='#00FF00'>/me</color> - <color='#ffb400'>информация о вашей прокачке</color>",
+"<color='#00FF00'>/teleport</color> или <color='#00FF00'>/tphelp</color> - <color='#ffb400'>помощь по командам телепорта</color>
+<color='#00FF00'>/tplimits</color> - <color='#ffb400'>лимиты телепортаций на сервере</color>
+<color='#00FF00'>/friend</color> <add|remove|list> <ник> - <color='#ffb400'>добавить/удалить/список друзей</color>
+<color='#00FF00'>/location</color> или <color='#00FF00'>/loc</color> - <color='#ffb400'>узнать свою текущую позицию</color>
+<color='#00FF00'>/who</color> или <color='#00FF00'>/online</color> - <color='#ffb400'>показать список игроков онлайн</color>",
+"<color='#00FF00'>/pm</color> <ник> <сообщение> - <color='#ffb400'>послать личное сообщение игроку</color>
+<color='#00FF00'>/r</color> <сообщение> или <color='#00FF00'>/r</color> <ник> <сообщение> - <color='#ffb400'>ответить на личное сообщение</color>
+<color='#00FF00'>/remove</color> [время] - <color='#ffb400'>включить режим удаления построки</color>
+<color='#00FF00'>/clan help</color> - <color='#ffb400'>помощь по созданию кланов</color>
+<color='#00FF00'>/time</color> - <color='#ffb400'>текущее игровое время</color>",
+"<color='#00FF00'>/run</color> - <color='#ffb400'>узнать информацию о бегущем человеке (ивент)</color>
+<color='#00FF00'>/event</color> - <color='#ffb400'>узнать информацию о текущем ивенте</color>
+<color='#00FF00'>/sil</color> <ссылка> - <color='#ffb400'>загрузить картинку на табличку (только PNG изображения)</color>
+<color='#00FF00'>/wipe</color> - <color='#ffb400'>информация о вайпах на сервере</color>
+
+<size='26'><color='#00FF00'>Сайт сервера</color> - <color='#FF0000'>Botov.NET.UA</color></size>"
+  ],
+  "Settings": {
+    "UseCustomHelpText": "true",
+    "AllowHelpTextFromOtherPlugins": "false"
+  }
+}

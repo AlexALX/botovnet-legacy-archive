@@ -1,0 +1,21 @@
+{
+  "Messages": {
+    "ChatHelp": "Use /ping player to check target player's ping",
+    "ConsoleHelp": "Use player.ping player to check target player's ping",
+    "InvalidTarget": "Invalid target player! Please try again",
+    "NoPermission": "You do not have permission to use this command!",
+    "PlayerCheck": "{player} has a ping of {ping}ms",
+    "PlayerConnected": "{player} ({steamid}) connected with {ping}ms ping",
+    "PlayerKicked": "{player} кикнут из-за большого пинга ({ping}ms)",
+    "Rejected": "Извините, ваш пинг очень большой для игры на этом сервере!",
+    "SelfCheck": "You have a ping of {ping}ms"
+  },
+  "Settings": {
+    "AuthLevel": 2,
+    "ChatCommand": "ping",
+    "ConsoleCommand": "global.ping",
+    "MaxPing": 200,
+    "PingKick": "true",
+    "ShowKick": "true"
+  }
+}

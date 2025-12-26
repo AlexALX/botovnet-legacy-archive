@@ -1,0 +1,15 @@
+[ru]
+SH_MONEY = У вас недостаточно денег чтобы купить щит. (нужно $%i).
+SH_FULL = У вас уже есть щит.
+SH_HAVE = Превышен лимит щитов, можно купить только 5 щитов за раунд.
+SH_OK = Вы купили щит!
+SH_ZOMB = Зомби не могут покупать щиты!
+SH_DEAD = Мёртвые игроки не могут покупать щиты.
+
+[en]
+SH_MONEY = You don't have enough money to buy a shield. ($%i needed).
+SH_FULL = You already have shield.
+SH_HAVE = Exceeded the limit of shields, you can buy only 5 shields per round.
+SH_OK = You buy shield!
+SH_ZOMB = Zombies can not buy shields!
+SH_DEAD = Dead clients are not allow to buy a shields!

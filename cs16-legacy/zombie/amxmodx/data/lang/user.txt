@@ -1,0 +1,5 @@
+[ru]
+USER_NOTLIFE = [AMXX] Мёртвые игроки не могут покупать.
+
+[en]
+USER_NOTLIFE = [AMXX] Dead clients are not allow to buy this.

@@ -1,0 +1,27 @@
+{
+  "Default": {
+    "Game": "Deathmatch"
+  },
+  "Messages - Event - Begin": "Арена: {0} начался!",
+  "Messages - Event - Cancelled": "Арена отменена!",
+  "Messages - Event - Closed": "Арена закрыта!",
+  "Messages - Event - End": "Арена: {0} закончился!",
+  "Messages - Event - Join": "{0} присоеденился к арене! (Игроков: {1})",
+  "Messages - Event - Left": "{0} вышел с арены! (Игроков: {1})",
+  "Messages - Event - Opened": "Арена {0} открыта!\nНапишите /event_join для того чтобы присоедениться!",
+  "Messages - Event Error - Already Closed": "Арена уже закрыта.",
+  "Messages - Event Error - Already Joined": "Вы уже присоеденились к Арене.",
+  "Messages - Event Error - Already Opened": "Арена уже открыта.",
+  "Messages - Event Error - Already Started": "Арена уже была запущена.",
+  "Messages - Event Error - Close&End": "The Event needs to be closed and ended before using this command.",
+  "Messages - Event Error - No Games Undergoing": "An Event game is not underway.",
+  "Messages - Event Error - No SpawnFile": "A spawn file must first be loaded.",
+  "Messages - Event Error - Not In Event": "You are not currently in the Event.",
+  "Messages - Event Error - Not Registered Event": "This Game {0} isn't registered, did you reload the game after loading Event - Core?",
+  "Messages - Event Error - Not Set": "An Event game must first be chosen.",
+  "Messages - Permissions - Not Allowed": "You are not allowed to use this command",
+  "Messages - Status - Closed": "Арена сейчас закрыта.",
+  "Settings": {
+    "authLevel": 1
+  }
+}

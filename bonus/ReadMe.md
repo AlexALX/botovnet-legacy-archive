@@ -1,0 +1,1 @@
+This just a two photos of how server did look it past, this hardware already burned out so just for a history.

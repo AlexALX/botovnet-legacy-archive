@@ -1,0 +1,35 @@
+[ru]
+JUMP_1 = [AMXX] Long Jump плагин отключён.
+JUMP_2 = [AMXX] Вы уже имеете longjump.
+JUMP_2_1 = [AMXX] У вас нет longjump'а.
+JUMP_3 = [AMXX] Не приминимо к мёртвому игроку.
+JUMP_4 = [AMXX] У вас недостаточно денег чтобы купить longjump. (нужно $%i).
+JUMP_5 = [AMXX] Вы купили longjump. Для активации, нажмите CTRL+пробел+вперёд (w).
+JUMP_6 = [AMXX] Вы продали свой longjump.
+JUMP_7 = АДМИНИСТРАТОР выдал longjump %s
+JUMP_8 = АДМИНИСТРАТОР %s выдал longjump %s
+JUMP_7A = АДМИНИСТРАТОР выдал всем longjump
+JUMP_8A = АДМИНИСТРАТОР %s выдал всем longjump
+JUMP_9A = АДМИНИСТРАТОР забрал longjump у %s
+JUMP_9B = АДМИНИСТРАТОР %s забрал longjump у %s
+JUMP_9C = АДМИНИСТРАТОР забрал у всех longjump
+JUMP_9D = АДМИНИСТРАТОР %s забрал у всех longjump
+JUMP_SELL = Вы не можете продать свой бесплатный longjump.
+
+[en]
+JUMP_1 = [AMXX] Long Jump plugin is disabled.
+JUMP_2 = [AMXX] You have already purchased a longjump.
+JUMP_2_1 = [AMXX] You don't have a longjump.
+JUMP_3 = [AMXX] Dead clients are not allow to buy a longjump.
+JUMP_4 = [AMXX] You don't have enough money to buy a longjump. ($%i needed).
+JUMP_5 = [AMXX] You have bought a LongJump. To use it, press duck and jump while moving forward.
+JUMP_6 = [AMXX] You sold your LongJump.
+JUMP_7 = ADMIN: give longjump %s
+JUMP_8 = ADMIN %s: give longjump %s
+JUMP_7A = ADMIN: give longjump to all
+JUMP_8A = ADMIN %s: give longjump to all
+JUMP_9A = ADMIN: took longjump %s
+JUMP_9B = ADMIN %s: took longjump %s
+JUMP_9C = ADMIN: took all longjumps
+JUMP_9D = ADMIN %s: took all longjumps
+JUMP_SELL = You cannot sell your free longjump.

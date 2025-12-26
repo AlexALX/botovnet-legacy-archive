@@ -1,0 +1,10 @@
+{
+  "Messages": {
+    "CantHurtFriend": "You can't hurt your friend!"
+  },
+  "Settings": {
+    "ChatCommand": "fff",
+    "CmdAuthLevel": 2,
+    "FriendlyFire": "true"
+  }
+}

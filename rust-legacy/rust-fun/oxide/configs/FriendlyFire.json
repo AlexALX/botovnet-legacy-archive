@@ -1,0 +1,17 @@
+{
+  "messages": {
+    "%NAME% is your friend and cannot be hurt. To disable this, unshare your location with %NAME% on the live map or type: <color=\"#ffd479\">/ff on</color>": "%NAME% ваш друг и вы не можете ему навредить.\nЧтобы отключить это удалите его из друзей командой /friend remove \"ник\" или напишите: <color=\"#ffd479\">/ff on</color>",
+    "<color=\"#ffd479\">/ff on|off</color> - Toggles friendly fire <color=#cd422b>on</color> or <color=#8acd2b>off</color>": "<color=\"#ffd479\">/ff on|off</color> - Включить или выключить дружественный огонь, <color=#cd422b>on</color> или <color=#8acd2b>off</color>",
+    "<color=\"#ffd479\">/ff</color> - Displays your friendly fire status": "<color=\"#ffd479\">/ff</color> - Отображает ваш статус дружественного огня",
+    "Friendly fire for your friends is already <color=#8acd2b>disabled</color>. They are safe!": "Дружественный огонь для ваших друзей уже <color=#8acd2b>отключён</color>. Они в безопасности!",
+    "Friendly fire for your friends is already <color=#cd422b>enabled</color>. Take care!": "Дружественный огонь для ваших друзей уже <color=#cd422b>включён</color>. Будьте осторожны!",
+    "Friendly fire is <color=#8acd2b>disabled</color> for your friends:": "Дружественный огонь <color=#8acd2b>выключен</color> для ваших друзей:",
+    "Friendly fire is <color=#cd422b>enabled</color> for your friends:": "Дружественный огонь <color=#cd422b>включён</color> для ваших друзей:",
+    "To toggle friendly fire on or off, type: <color=\"#ffd479\">/ff on|off</color>": "Для вкл/выкл дружественного огоня напишите: <color=\"#ffd479\">/ff on|off</color>",
+    "Usage: <color=\"#ffd479\">/ff [on|off]</color>": "Использование: <color=\"#ffd479\">/ff [on|off]</color>",
+    "You do not have any friends currently.": "Вы не имеете друзей на данный момент.",
+    "You have <color=#8acd2b>disabled</color> friendly fire for your friends. They are safe!": "Вы <color=#8acd2b>отключили</color> дружественный огонь для ваших друзей. Они в безопасности!",
+    "You have <color=#cd422b>enabled</color> friendly fire for your friends. Take care!": "Вы <color=#cd422b>включили</color> дружественный огонь для ваших друзей. Будьте осторожны!",
+    "You may add or delete friends using the live map.": "Вы можете добавлять и удалять друзей используя команды /friend add/remove \"ник\"."
+  }
+}

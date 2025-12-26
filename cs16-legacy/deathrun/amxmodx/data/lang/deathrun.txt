@@ -1,0 +1,56 @@
+[en]
+DR_NOW_TERR = %s\YEL is now the terrorist.
+DR_STARTING = Starting in 10 seconds.
+DR_NO_DETECT = No terrorist detected, restarting now.
+DR_NOT_ENOUGH = Not enough players to start Deathrun!
+DR_STARTING_CC = Starting in\GRN 10\YEL seconds.
+
+DR_LIFE_CC_COUNT = You have\TEM %i\YEL lifes.
+DR_LIFE_CC_NO = You dont have lifes, kill enemy to get one!
+DR_LIFE_COUNT = You have %i lifes.
+DR_LIFE_NO = You dont have lifes^nKill enemy to get one!
+DR_LIFE_DISABLE = Life system is disabled.
+DR_LIFE_RESPAWN = You will be respawned in\TEM 3\YEL seconds!
+DR_LIFE_CANT = You could be respawned but few CT's!
+
+DR_BLOCK_SPRAY = Spray's not allowed on this server!
+DR_BLOCK_KILL = You can't kill yourself!
+
+DR_LIFE_MENU_TITLE = You want to be respawn?
+DR_LIFE_MENU_YES = Yes
+DR_LIFE_MENU_NO = No
+DR_LIFE_CLOSE = If you want to be respawn write \GRN/uselife\YEL in chat or console.
+DR_LIFE_MENU_ALIVE = You are alive!
+DR_LIFE_MENU_SPEC = Spectators can not respawn!
+DR_LIFE_BUY = You bought an extra life, write \GRN/uselife\YEL in chat or console to respawn.
+DR_LIFE_NOBUY = You don't have enough money to buy extra life ($%i needed).
+DR_LIFE_SOLD = You sold an extra life (\GRN+$%i\YEL).
+
+[ru]
+DR_NOW_TERR = %s\YEL теперь террорист!
+DR_STARTING = Игра начнётся через 10 секунд.
+DR_NO_DETECT = Нет террориста, делаю рестарт.
+DR_MSG_DETECT = Много террористов, %s был кикнут.
+DR_NOT_ENOUGH = Недостаточно ироков чтобы начать игру!
+DR_STARTING_CC = Игра начнётся через\GRN 10\YEL секунд.
+
+DR_LIFE_CC_COUNT = У вас\TEM %i\YEL дополнительных жизней.
+DR_LIFE_CC_NO = У вас нет дополнительных жизней.
+DR_LIFE_COUNT = У вас %i дополнительных жизней.
+DR_LIFE_NO = У вас нет дополнительных жизней
+DR_LIFE_DISABLE = Система дополнительных жизней выключена.
+DR_LIFE_RESPAWN = Вы появитесь через\TEM 3\YEL секунды!
+DR_LIFE_CANT = Вы не можете появиться, мало CT!
+
+DR_BLOCK_SPRAY = На этом сервере нельзя рисовать!
+DR_BLOCK_KILL = Вы не можете убить себя!
+
+DR_LIFE_MENU_TITLE = Вы хотите возродиться?
+DR_LIFE_MENU_YES = Да
+DR_LIFE_MENU_NO = Нет
+DR_LIFE_CLOSE = Если вы захотите возродиться напишите \GRN/uselife\YEL в чате или консоле.
+DR_LIFE_MENU_ALIVE = Вы уже живые!
+DR_LIFE_MENU_SPEC = Спектаторы не могут возрождаться!
+DR_LIFE_BUY = Вы купили дополнительную жизнь, напишите \GRN/uselife\YEL в чате или консоле чтобы возродиться.
+DR_LIFE_NOBUY = У вас недостаточно денег чтобы купить дополнительную жизнь (нужно %i$).
+DR_LIFE_SOLD = Вы продали дополнительную жизнь (\GRN+%i$\YEL).

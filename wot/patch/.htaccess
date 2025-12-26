@@ -1,0 +1,6 @@
+<FilesMatch "^(log.txt|last.txt|index.php|core.php|global.php)$">
+    AddDefaultCharset utf-8
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</FilesMatch>

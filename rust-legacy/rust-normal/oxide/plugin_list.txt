@@ -1,0 +1,44 @@
+Next plugins were used on our normal Botov-NET rust server.
+You can find them in internet.
+My own plugins were added in repository.
+
+0-test.lua
+a0friendsAPI.lua
+AirdropControl.cs
+airdrop_settings.lua
+ArenaDeathmatch.cs
+ArenaHelp.cs
+autobroadcast.lua
+AutoGrades.cs
+BuildBlocker.cs
+BuildingGrades.cs
+BuildingOwners.cs
+chathandler.lua
+Clans.cs
+ClansStudy.cs
+CopyPaste.cs
+CustomChatCommands.lua
+deathnotes.py
+event.lua
+EventManager.cs
+Events.cs
+FriendlyFire.cs
+Give.cs
+helptext.lua
+Kits.cs
+m-Godmode.lua
+m-Teleportation.lua
+m-Time.lua
+online-web.lua
+playerlist.lua
+playerlocation.lua
+privatemessage.lua
+RemoverTool.cs
+RustOnlineShop.cs
+RustVip.cs
+SelfStudy.cs
+SignArtist.cs
+spawner.lua
+Spawns.cs
+usernotification.lua
+ZoneManager.cs

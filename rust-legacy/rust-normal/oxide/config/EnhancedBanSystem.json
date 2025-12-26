@@ -1,0 +1,14 @@
+{
+  "Messages": {
+    "BanMessage": "An admin banned you for {reason}",
+    "DenyConnection": "You are banned on this server",
+    "HelpText": "Use /bancheck to check if and for how long someone is abnned",
+    "KickMessage": "An admin kicked you for {reason}"
+  },
+  "Settings": {
+    "BroadcastBans": "false",
+    "ChatName": "SERVER",
+    "CheckUsableByEveryone": "false",
+    "LogToConsole": "true"
+  }
+}

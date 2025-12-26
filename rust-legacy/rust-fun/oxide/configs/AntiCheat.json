@@ -1,0 +1,12 @@
+{
+  "Flyhack: activated": true,
+  "Flyhack: Punish": true,
+  "Flyhack: Punish Detections": 3,
+  "Settings: FPS Ignore": 30,
+  "Settings: Ignore Hacks for authLevel": 1,
+  "SpeedHack: activated": true,
+  "SpeedHack: Punish": true,
+  "SpeedHack: Punish Detections": 3,
+  "SpeedHack: Speed Detection": 10.0,
+  "Wallhack: activated": true
+}

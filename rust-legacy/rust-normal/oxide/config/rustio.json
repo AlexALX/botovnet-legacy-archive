@@ -1,0 +1,11 @@
+{
+  "displayMonuments": true,
+  "displayBuildings": false,
+  "displayMortality": true,
+  "broadcastSpawns": true,
+  "broadcastDeaths": true,
+  "broadcastChat": true,
+  "defaultLanguage": "ru",
+  "welcomeMessage": null,
+  "ISwearIllDonate": true
+}

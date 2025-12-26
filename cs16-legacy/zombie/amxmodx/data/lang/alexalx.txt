@@ -1,0 +1,400 @@
+[ru]
+INFECT_MENU = Заразить/Сделать человеком
+HUMAN_USER = Сделать человеком
+INF_USER = Сделать зомби
+CANT_PERF_USER = Неприменимо к игроку "%s"
+ALX_ADMIN = Админ тебя забанит! xD
+ALX_BRAINM = У вас недостаточно денег чтобы купить мозги (нужно $%i).
+ALX_BRAIN = Вы купили мозги! Теперь вам легче думать. xD
+ALX_TYALETM = У вас недостаточно денег чтобы сходить в туалет (нужно $%i).
+ALX_TYALET = Вы сходили в туалет и вам полегчало, незабудьте слить воду.
+ALX_TYALET2 = Вы ещё раз сходили в туалет и вам полегчало, и вы не забыли слить воду.
+ALX_TYALET3 = Вы очень часто стали ходить в туалет, вам плохо?
+ALX_TYALET4 = Вам явно плохо, вас поносит? Или много выпили?
+ALX_TYALET5 = Срочно обратитесь к врачу! Вам становиться плохо!!!
+ALX_TYALET6 = Вам очень плохо! Вам трудно двигаться от боли...
+ALX_TYALET7 = Вы умираете от боли... Не можете пошевелиться...
+ALX_TYALET8 = Вы умерли от сильной боли в животе.
+ALX_LAMBORM = У вас недостаточно денег чтобы купить Ламборджини (нужно $%i).
+ALX_LAMBOR = Вы купили Ламборджини, но её украли, а вас убили. :(
+ALX_DRUGA = Только живые могут покупать стимулятор/лекарства.
+ALX_DRUGM = У вас недостаточно денег чтобы купить стимулятор (нужно $%i).
+ALX_DRUG = Вы купили стимулятор, и вам стало немного луче чем всегда. :)
+ALX_DRUG2 = Вы купили ещё стимулятора, и вам стало ещё лучше. :) :)
+ALX_DRUG3 = Вы купили ещё стимулятора, и вам очень хорошо. :) :) :)
+ALX_DRUG3b = Внимание! Чрезмерное употребление стимулятора может
+ALX_DRUG3c = привести к передозировке и зависимости!
+ALX_DRUG4 = Вы купили стимулятор, и вам стало очель легко. :) :) :) :)
+ALX_DRUG4b = Возможна передозировка! Вам срочно нужны лекарства!!!
+ALX_DRUG4c = Внимание! Чрезмерное употребление стимуляторов может
+ALX_DRUG4d = привести к передозировке, зависимости и смерти!
+ALX_DRUG5 = Вы купили ещё стимулятора, и вы просто летаете! :) :) :) :) :)
+ALX_DRUG5b = У вас передозировка! Вам срочно нужна хотябы одна доза лекарства!!!
+ALX_DRUG5c = Передозировка стимулятором может привести к смерти!
+ALX_DRUGD = Вы умерли от передозировки стимулятора.
+ALX_DRUGDb = Мы вас предупреждали о возможных последствиях.
+ALX_DRUGDc = Вам стало очень плохо, срочно купите лекарства!
+ALX_DRUGD2 = Вы умерли от злоупотребления стимулятором.
+ALX_DRUGLM = У вас недостаточно денег чтобы купить лекартсво (нужно $%i).
+ALX_DRUGLN = Вы не нуждаетесь в лекарстве, вы итак здоровы и не употребляете.
+ALX_DRUGL = Вы купили и приняли лекарство. Уровень воздействия снижен.
+ALX_DRUGLb = Вы купили и приняли лекарство. Уровень зависимости снижен.
+ALX_DRUGBON = Ваш уровень зависимости от стимулятора подбодряет вас. :)
+ALX_DRUGBON2 = Вам уровень зависимости от стимулятора ухудшает здоровье. :(
+ALX_DRUGBON3 = У вас ломка. Примите лекарства или стимулятор.
+ALX_DRUGBON4 = У вас очень сильная ломка, срочно купите лекарства!
+ALX_DRUGBON5 = Ваш уровень зависимости смертельно высок!
+ALX_DRUGNS = Игра ещё не началась!
+DRUG_SHOP1 = \wСтимулятор - \y%d$
+DRUG_SHOP2 = \wЛекарство - \y%d$
+DRUG_SHOP3 = \wИнформация
+DRUG_SHOP4 = ^n\rВнимание!^n\wСтимулятор опасен для здоровья!^n\yОн может вызвать:
+DRUG_SHOP5 = \wЗависимость, передозировку, \rсмерть\w.^n\wБудьте осторожны с ним.^n
+SHOP_EXIT = Выход^n^n\yhttp://botov.net.ua/
+SHOP_BACK = Назад
+SHOP_NEXT = Вперёд
+SHOP_DEP = \yЗависимость: \w%i^n36 и выше - \rсмертельно\w.
+SHOP_DEP2 = Уровень вашей зависимости от стимулятора: %i.
+SHOP_DEP2_1 = 36 и выше - смертельно.
+
+DRUG_INFO :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+Стимуляторы дают некоторые бонусы игроку, а также могут вызвать <u>зависимость</u>, <u>передозировку</u> и <u><span color='red'>смерть</span></u>.^n
+А теперь подробнее о том как эта система работает.^n^n
+
+Существуют так называемые очки зависимости. За каждую покупку стимулятора добавляется 4 очка,^n
+лекарства забирают 4 очка, каждый новый раунд снимается по 3 очка.^n
+Стимулятор даёт некоторые бонусы, а также хп и броню, которую можно покупать поверх максимально (255хп и 100брони).^n^n
+
+<b>Команды (чат/консоль, для бинда):</b>^n
+buystim - купить стимулятор.^n
+buymedc - купить лекарство.^n
+stimdep - посмотреть уровень зависимости.^n
+stiminfo - открыть это окно.^n
+stiminfo2 - открыть страницу №2.^n
+stiminfo3 - открыть страницу №3.^n^n
+
+Напишите /stiminfo2 для продолжения.
+		</pre>
+	</body>
+</html>
+:
+
+DRUG_INFO2 :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+Для возвращения на предыдущую страницу напишите /stiminfo.^n^n
+
+Чтобы было понятнее, написал в виде "таблицы":^n
+<b>Стимулятор</b> - стоимость за 1 дозу %i$.^n
+Каждая доза стимулятора даёт человеку +50хп, +40 брони,^n
+зомби +95хп и 4 очка зависимости, а также искажает восприятие.^n
+<b>Эффекты и бонусы:</b>^n
+1-я доза не даёт бонусов^n
+2-я - +0.25/0.15 силы зомби/человеку^n
+3-я - сброс ослепления, +35 скорости,^n
+0.75 гравитация, +0.25/0.10 силы зомби/человеку^n
+4-я - сбрасывает ослепление, +75 скорость, +0.25/0.15 силы,^n
+0.5 гравитация, смерть через 2 мин если не примете лекарство.^n
+5-я - не слепит от флешек/фонариков, головокружение, +0.25/0.2 силы,^n
++125 скорость, 0.36 гравитация,^n
+смерть через 30 сек без лекарства.^n
+6-я - смерть.^n^n
+
+Напишите /stiminfo3 для продолжения.
+		</pre>
+	</body>
+</html>
+:
+
+DRUG_INFO3 :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+Для возвращения на предыдущую страницу напишите /stiminfo2.^n^n
+
+<b>Лекарства</b> - стоимость за 1 дозу %i$.^n
+<u>1 доза:</u> -20 хп, -10 брони,^n
+-4 очка зависимости, -1 уровень стмулятора (-1 доза),^n
+избавляет от симптомов лёгкой зависимости (11-28 очков).^n^n
+
+<b>Зависимость:</b>^n
+Проявляется после начала раунда (появления зомби).^n
+<b>Очки:</b>^n
+1-10 = +20хп, +10 брони^n
+11-20 = -20хп, -10 брони, искажение восприятия.^n
+21-28 = -50хп, -25 брони, искажение восприятия, головокружение,^n
+нуждаемость в лекарстве или стимуляторе.^n
+29-35 = -90хп, -75 брони, сильное искажение восприятия, головокружение,^n
+необходимо купить лекарство, иначе смерть через 30 сек после начала раунда.^n
+36+ = необходимы лекарства, иначе смерть после начала раунда.^n^n
+
+Напишите /stiminfo для возвращения на главную страницу.
+		</pre>
+	</body>
+</html>
+:
+ALX_CMD_SPAWN_AD = АДМИНИСТРАТОР оживил %s
+ALX_CMD_SPAWN_AD2 = АДМИНИСТРАТОР %s оживил %s
+ALX_CMD_MONEY_AD = АДМИНИСТРАТОР выдал %i$ %s
+ALX_CMD_MONEY_AD2 = АДМИНИСТРАТОР %s выдал %i$ %s
+ALX_CMD_MONEY_ADA = АДМИНИСТРАТОР выдал %i$ всем игрокам
+ALX_CMD_MONEY_ADA2 = АДМИНИСТРАТОР %s выдал %i$ всем игрокам
+ALX_CMD_MONEY_ADT = АДМИНИСТРАТОР выдал %i$ всем %s
+ALX_CMD_MONEY_ADT2 = АДМИНИСТРАТОР %s выдал %i$ всем %s
+ALX_CMD_MONEY_ADE = Нельзя выдать меньше 100$.
+
+[en]
+INFECT_MENU = Infect/Make human
+HUMAN_USER = Make human
+INF_USER = Make zombie
+CANT_PERF_USER = That action can't be performed on client "%s"
+ALX_ADMIN = Admin baned you! xD
+ALX_BRAINM = You don't have enough money to buy a brains ($%i needed).
+ALX_BRAIN = You have bought a brains. Now it's easier to think. xD
+ALX_TYALETM = You don't have enough money for go to the toilet ($%i needed).
+ALX_TYALET = You go to the toilet and you feel better, do not forget to drain the water.
+ALX_TYALET2 = You again go to the toilet and you feel better, and you don't forget drain the water.
+ALX_TYALET3 = You often have to go to the toilet, you bad?
+ALX_TYALET4 = You realy bad, you have diarrhea? Or a lot to drink?
+ALX_TYALET5 = Seek medical attention immediately! You become ill!
+ALX_TYALET6 = You very bad! You can hardly move from the pain...
+ALX_TYALET7 = You die from the pain... You can not move...
+ALX_TYALET8 = You have died from severe abdominal pain.
+ALX_LAMBORM = You don't have enough money to buy a Lamborghini ($%i needed).
+ALX_LAMBOR = You bought a Lamborghini, but it was stolen, and you killed. :(
+ALX_DRUGA = Only the living can buy stimulator/medicament.
+ALX_DRUGM = You don't have enough money to buy stimulator ($%i needed).
+ALX_DRUG = You bought the stimulator, and you feel a little ray than ever. :)
+ALX_DRUG2 = You bought more stimulator and you become more ray than ever. :) :)
+ALX_DRUG3 = You buy more stimulator, and you very well. :) :) :)
+ALX_DRUG3b = Warning! Excessive stimulator use can
+ALX_DRUG3c = lead to overdose and dependence!
+ALX_DRUG4 = You bought a stimulator, and you become very easily. :) :) :) :)
+ALX_DRUG4b = Possibility of an overdose! You urgently need medicaments!!!
+ALX_DRUG4c = Warning! Excessive stimulator use can
+ALX_DRUG4d = lead to overdose, addiction and death!
+ALX_DRUG5 = You bought a stimulator, and you just fly! :) :) :) :) :)
+ALX_DRUG5b = Do you have an overdose! You urgently need At least one dose of medication!
+ALX_DRUG5c = Overdose can lead to death!
+ALX_DRUGD = You have died of a stimulator overdose.
+ALX_DRUGDb = You've been warned about the possible consequences.
+ALX_DRUGDc = You became very ill, urgently buy medicaments!
+ALX_DRUGD2 = You have died of stimulator overdose.
+ALX_DRUGLM = You don't have enough money to buy medicament ($%i needed).
+ALX_DRUGLN = You do not need medicaments, you are so healthy and not use stimulator.
+ALX_DRUGL = You bought and took medicament. The level of stimulator exposure reduced.
+ALX_DRUGLb = You bought and took medicament. Level depending on the stimulator lowered.
+ALX_DRUGBON = Your level of dependence on stimulator exhilarate you. :)
+ALX_DRUGBON2 = Your level of dependence on stimulator affects health. :(
+ALX_DRUGBON3 = You have break-up. Take the medicaments or stimulator.
+ALX_DRUGBON4 = You have a very strong break-up, urgently buy medicaments!
+ALX_DRUGBON5 = Depending on your level of deadly high!
+ALX_DRUGNS = Game are not started yet!
+DRUG_SHOP1 = \wStimulator - \y%d$
+DRUG_SHOP2 = \wMedicament - \y%d$
+DRUG_SHOP3 = \wInformation
+DRUG_SHOP4 = ^n\rWarning!^n\wStimulator are dangerous for health!^n\yIt can cause:
+DRUG_SHOP5 = \wDependence, overdose, \rdeath\w.^n\wBe careful with Krait them.^n
+SHOP_EXIT = Exit^n^n\yhttp://botov.net.ua/
+SHOP_BACK = Back
+SHOP_NEXT = Next
+SHOP_DEP = \yDependence: \w%i^n36 or more - \rdeadly\w.
+SHOP_DEP2 = You dependence from stimulator: %i.
+SHOP_DEP2_1 = 36 or more - deadly.
+
+DRUG_INFO :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+Stimulants give some bonuses to the player, and can cause <u>dependence</u>, <u>overdose</u> and <u><span color='red'>death</span></u>.^n
+And now more about how this system works.^n^n
+
+There are so-called Points dependence. For each purchase stimulator added 4 points,^n
+medicaments is taken 4 points, each new round was withdrawn on 3 points.^n
+The stimulator gives some bonuses, hp and armor, which can be bought over the maximum (255hp and 100ap).^n^n
+
+<b>Commands (chat/console, for bind):</b>^n
+buystim - buy stimulator.^n
+buymedc - buy medicaments.^n
+stimdep - see the level of dependency.^n
+stiminfo - open this window.^n
+stiminfo2 - open page #2.^n
+stiminfo3 - open page #3.^n^n
+
+Write /stiminfo2 to continue.
+		</pre>
+	</body>
+</html>
+:
+
+DRUG_INFO2 :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+To return to the previous page write /stiminfo.^n^n
+
+To make it more understandable, written in the form of "table":
+
+<b>Stimulator</b> - the value for 1 dose of $%i.^n
+Each dose of stimulator gives a person 50 hp, 40 armor,^n
+for Zombie give 95 hp, 4 points dependence, and also distort perception.^n
+<b>Effects and bonuses:</b>^n
+1 dose does not give bonuses^n
+2 - +0.25/0.15 attack power zombie/human^n
+3 - reset flash, +35 speed,
+0.75 gravity, +0.25/0.10 attack power zombie/human^n
+4 - reset flash, +75 speed, +0.25/0.15 attack power,^n
+0.5 gravity, death in 2 min without medicaments.^n
+5 - no flash, dizziness, +0.25/0.2 attack power,^n
++125 speed, 0.36 gravity,^n
+death in 30 seconds without medicaments.^n
+6 - death.^n^n
+
+Write /stiminfo3 to continue.
+		</pre>
+	</body>
+</html>
+:
+
+DRUG_INFO3 :
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<pre>
+To return to the previous page write /stiminfo2.^n^n
+
+<b>Medicaments</b> - cost for 1 dose $%i.^n
+<u>1 dose:</u> -20 hp, -10 armor,^n
+-4 depending point, -1 level of stimulator (-1 dose),^n
+eliminates the symptoms of mild dependence (11-28 points).^n^n
+
+<b>Dependence:</b>^n
+Appears after the start of round (the appearance of zombies).^n
+<b>Points:</b>^n
+1-10 = +20hp, +10 armor^n
+11-20 = -20hp, -10 armor, distortion of perception.^n
+21-28 = -50hp, -25 armor, distortion of perception, dizziness,^n
+Means of medicaments or stimulator.^n
+29-35 = -90hp, -75 armor, very big distortion of perception, dizziness,^n
+need buy medicaments, or death in 30 sec after round start.^n
+36+ = needed medicaments, or death after round start.^n^n
+
+Write /stiminfo to return to main page.
+		</pre>
+	</body>
+</html>
+:
+ALX_CMD_SPAWN_AD2 = ADMIN: revived %s
+ALX_CMD_SPAWN_AD = ADMIN %s: revived %s
+ALX_CMD_MONEY_AD2 = ADMIN: give $%i %s
+ALX_CMD_MONEY_AD = ADMIN %s: give $%i %s
+ALX_CMD_MONEY_ADA = ADMIN: give %i$ to all players
+ALX_CMD_MONEY_ADA2 = ADMIN %s: give %i$ to all players
+ALX_CMD_MONEY_ADT = ADMIN: give %i$ to all %s
+ALX_CMD_MONEY_ADT2 = ADMIN %s: give %i$ to all %s
+ALX_CMD_MONEY_ADE = You can not give less than 100$.

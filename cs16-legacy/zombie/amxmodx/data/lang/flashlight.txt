@@ -1,0 +1,29 @@
+[ru]
+FLC_BMENU = \rКупить батарейки для фонарика?^n\yСтоимость: %i$
+FLC_BMENU1 = \wДа
+FLC_BMENU2 = \wНет
+FLC_CNOCOST = У вас недостаточно денег для покупки цветного фонарика ($%i нужно).
+FLC_BNOCOST = У вас недостаточно денег для покупки улучшенного фонарика ($%i нужно).
+FLC_NOBCOST = У вас недостаточно денег для покупки батарейки для фонарика ($%i нужно).
+FLC_CHAVE = У вас уже есть цветной фонарик.
+FLC_BHAVE = У вас уже есть улучшенный фонарик.
+FLC_BATHAVE = У вас уже есть батарейки для фонарика.
+FLC_СBUY = Вы купили цветной фонарик.
+FLC_BBUY = Вы купили улучшенный фонарик.
+FLC_BATBUY = Вы купили батарейки для фонарика.
+FLC_ZOMBIE = Зомби не могут покупать это.
+
+[en]
+FLC_BMENU = \rBuy flashlight batteries?^n\yCost: %i$
+FLC_BMENU1 = \wYes
+FLC_BMENU2 = \wNo
+FLC_CNOCOST = You don't have enough money to buy a colored flashlight. ($%i needed).
+FLC_BNOCOST = You don't have enough money to buy a improved flashlight. ($%i needed).
+FLC_NOBCOST = You don't have enough money to buy a flashlight batteries. ($%i needed).
+FLC_CHAVE = You already have a colored flashlight.
+FLC_BHAVE = You already have a improved flashlight.
+FLC_BATHAVE = You already have a flashlight batteries.
+FLC_СBUY = You bought a colored flashlight.
+FLC_BBUY = You bought a improved flashlight.
+FLC_BATBUY = You bought the flashlight batteries.
+FLC_ZOMBIE = Zombies can not buy it.

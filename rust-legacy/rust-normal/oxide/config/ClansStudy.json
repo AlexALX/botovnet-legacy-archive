@@ -1,0 +1,168 @@
+{
+  "clanreq": {
+    "1": {
+      "minplayers": 2,
+      "res": {
+        "wolfmeat_cooked": 200,
+        "bone_fragments": 3000
+      },
+      "bonus": {
+        "cond": 0.1,
+        "vinos": 0.05
+      }
+    },
+    "2": {
+      "minplayers": 3,
+      "res": {
+        "blood": 30,
+        "skull_human": 30,
+        "skull_wolf": 10
+      },
+      "bonus": {
+        "gather": 0.1,
+        "vinos": 0.05
+      }
+    },
+    "3": {
+      "minplayers": 5,
+      "res": {
+        "stones": 20000,
+        "wood": 20000,
+        "cloth": 10000
+      },
+      "bonus": {
+        "defence": 0.05,
+        "damage": 0.05
+      }
+    },
+    "4": {
+      "minplayers": 7,
+      "res": {
+        "metal_fragments": 9000,
+        "sulfur": 9000,
+        "charcoal": 10000
+      },
+      "bonus": {
+        "kuznec": 0.05,
+        "kits": 0.0,
+        "spec": 0.0
+      }
+    }
+  },
+  "clanspec": {
+    "aztec": {
+      "name": "Ацтеки",
+      "res": {
+        "wood": 40000,
+        "charcoal": 20000,
+        "sulfur": 10000,
+        "wolfmeat_cooked": 1000,
+        "metal_fragments": 10000
+      },
+      "bonus": {
+        "damage": 0.1,
+        "lovk": 0.1,
+        "cond": 0.05,
+        "weapons": 0.15
+      },
+      "weapons": [
+        "bow_hunting",
+        "spear_wooden",
+        "spear_stone"
+      ]
+    },
+    "maya": {
+      "name": "Майя",
+      "res": {
+        "wood": 40000,
+        "charcoal": 20000,
+        "stones": 20000,
+        "skull_human": 50,
+        "skull_wolf": 40,
+        "blood": 30
+      },
+      "bonus": {
+        "defence": 0.1,
+        "gather": 0.05,
+        "kuznec": 0.1,
+        "weapons": 0.2
+      },
+      "weapons": [
+        "bow_hunting",
+        "hatchet",
+        "axe_salvaged",
+        "stonehatchet"
+      ]
+    },
+    "inki": {
+      "name": "Инки",
+      "res": {
+        "wood": 40000,
+        "charcoal": 20000,
+        "stones": 10000,
+        "skull_human": 50,
+        "skull_wolf": 10,
+        "blood": 60,
+        "metal_fragments": 10000
+      },
+      "bonus": {
+        "master": 0.05,
+        "cond": 0.05,
+        "weapons": 0.25
+      },
+      "weapons": [
+        "bow_hunting",
+        "pickaxe",
+        "stone_pickaxe",
+        "icepick_salvaged"
+      ]
+    },
+    "colon": {
+      "name": "Колонизаторы",
+      "res": {
+        "wood": 40000,
+        "charcoal": 20000,
+        "metal_ore": 20000,
+        "wolfmeat_cooked": 1000,
+        "metal_fragments": 10000
+      },
+      "bonus": {
+        "kuznec": 0.06,
+        "defence": 0.12,
+        "gather": 0.07,
+        "weapons": 0.07
+      },
+      "weapons": [
+        "smg_thompson",
+        "rifle_bolt",
+        "smg_2",
+        "shotgun_waterpipe",
+        "shotgun_pump"
+      ]
+    },
+    "pirat": {
+      "name": "Пираты",
+      "res": {
+        "wood": 50000,
+        "charcoal": 20000,
+        "skull_human": 50,
+        "skull_wolf": 30,
+        "blood": 40,
+        "metal_fragments": 20000
+      },
+      "bonus": {
+        "stalker": 0.1,
+        "lovk": 0.05,
+        "vinos": 0.05,
+        "cond": 0.05,
+        "weapons": 0.07
+      },
+      "weapons": [
+        "rifle_bolt",
+        "shotgun_waterpipe",
+        "shotgun_pump",
+        "rifle_ak"
+      ]
+    }
+  }
+}

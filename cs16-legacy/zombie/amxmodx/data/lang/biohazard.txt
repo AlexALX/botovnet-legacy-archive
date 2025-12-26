@@ -1,0 +1,211 @@
+[ru]
+SCAN_CLEAN = не инфицированы!
+SCAN_INFECTED = инфицированы!
+SCAN_RESULTS = [BIOSCAN] Результат: Вы
+SCAN_ERROR = [BIOSCAN] Напишите /scan в чате чтобы просканировать вас (нужно $%i)!
+SCAN_START = [BIOSCAN] Игра уже началась!
+SCAN_DIE = [BIOSCAN] Вы мертвы!
+SCAN_COST = [BIOSCAN] У вас недостаточно денег чтобы просканировать (нужно $%i)!
+INFECTED_TXT = [BIOSCAN] %s заражён!
+INFECTED_TXT2 = [BIOSCAN] Инфекция распространилась!
+INFECTED_HUD = !!!ВНИМАНИЕ!!!^n%s заражён!
+INFECTED_HUD2 = !!!ВНИМАНИЕ!!!^nИнфекция распространилась!
+MUTATION_HUD = Вы мутировали в %s!
+WIN_TXT_ZOMBIES = Зомби победили!
+WIN_TXT_SURVIVORS = Люди победили!
+MENU_TITLE1 = Выберите оружие
+MENU_TITLE2 = Главное оружие
+MENU_TITLE3 = Вторичное оружие
+MENU_TITLE4 = Выберите класс зомби
+MENU_BACK = Назад
+MENU_MORE = Дальше
+MENU_EXIT = Выход
+MENU_NEWWEAPONS = Новое оружие
+MENU_PREVSETUP = Повторить покупку
+MENU_DONTSHOW = Больше не показывать
+MENU_REENABLED = Меню скупки вновь активировано.
+MENU_ALENABLED = Меню скупки уже активировано.
+MENU_CMDENABLE = Напишите "/guns" в чате чтобы вновь активировать меню скупки.
+MENU_CHANGECLASS = Вы мутируете в %s когда вас заразят.
+CMD_MAXZOMBIES = Достигнут передл зомби.
+CMD_INFECTED = Вы заразили %s.
+CMD_TEAMCHANGE = Вы не можете изменить команду.
+CMD_GAMENOTSTARTED = Игра ещё не началась.
+SUICIDEPUNISH_TXT = Вы были наказаны за совершение самоубийства.
+WELCOME_TXT = Сервер использует Biohazard v#Version#. Напишите /help для детальной информации.
+HUMAN1 = АДМИНИСТРАТОР сделал человеком %s
+HUMAN2 = АДМИНИСТРАТОР %s сделал человеком %s
+ZOMBI1 = АДМИНИСТРАТОР сделал зомби %s
+ZOMBI2 = АДМИНИСТРАТОР %s сделал зомби %s
+CMD_HUMAN = Вы сделали человеком %s.
+BUY_ZOMBIE = У вас недостаточно денег чтобы инфицировать себя (нужно $%i).
+INFECT_YOU = Вы инфицированы!
+LAST_ZOMBIE = Вы последний зомби!
+LAST_HUMAN = Вы последний человек!
+HUMAN_BUY = У вас недостаточно денег чтобы купить антивирус (нужно $%i).
+GMS_A = Игра ещё не началась!
+NO_INFECT_YOU = Вы не инфицированы!
+USE_ANTIVIRUS = Вы ввели антивирус!
+BIO_HEALTH = Здоровье: %i
+BIO_ARMOR = Броня: %i
+BIO_CLASS = Class: %s (%s)
+HELP_MOTD :
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body scroll="no">
+		<pre>
+			<img src="http://img182.imageshack.us/img182/904/bio3od0.jpg">^n
+			Biohazard v#Version# by cheap_suit^n^n
+			Модифицировал <b>AlexALX</b> &copy; 2008-2010 by <b>Botov.NET.UA</b>^n^n
+			<b>Цель игры:</b>^n^n
+			После начала раунда, несколько из игроков заражены опасным вирусом.^n
+			Спустя 15 секунд, они мутируют в зомби, их цель - любым способом уничтожить людей, или преварить их в себе подобных.^n
+			Выжившие же должны предотвратить это, уничтожив всех зомби.^n^n
+			<b>Команды (чат/консоль):</b>^n^n
+			/menu - открыть основное меню biohazard'а^n
+			/lang - выбор языка^n
+			/commands - открыть полный список команд сервера^n
+			/class - выбрать класс зомби^n
+			/guns - активация меню скупки оружия^n
+			/rules - просмотра правил сервера^n
+			/vipinfo - информация о VIP игроках^n^n
+			<b>Заходите на сайт и форум сервера! <span style="color: red">http://botov.net.ua/</span></b>
+		</pre>
+	</body>
+</html>
+:
+CMD_NOT = Только живые могут использовать эту команду.
+CMD_STUCK = Вас телепортирует на респавн через 15 секунд.
+CMD_STUCK_OK = Вас телепоровало на респавн.
+CMD_STUCK_ERR = Ошибка, нет свободных мест на респавне.
+CMD_STUCK_WAIT = Пожалуйста, подождите...
+CMD_STUCK_LIFE = Вы были возрождены из-за смерти на респавне.
+CLOAK_DIE = Вы мертвы!
+CLOAK_COST = У вас недостаточно денег чтобы купить маскировку (нужно $%i)!
+CLOAK_ZOMBIE = Только люди могут покупать маскировку!
+CLOAK_BUY = Вы купили маскровку! Активно когда стоите/медленно ходите/присели.
+CLOAK_HAVE = Маскровка уже куплена! Активно когда стоите/медленно ходите/присели.
+CLOAK_NHAVE = У вас нету маскировки! Невозможно продать.
+CLOAK_SELL = Вы продали вашу маскировку! (+%i$)
+
+[en]
+SCAN_CLEAN = Clean!
+SCAN_INFECTED = Infected!
+SCAN_RESULTS = [BIOSCAN] Result: You're
+SCAN_ERROR = [BIOSCAN] Type /scan in chat to scan you ($%i needed)!
+SCAN_START = [BIOSCAN] Game already started!
+SCAN_DIE = [BIOSCAN] You are die!
+SCAN_COST = [BIOSCAN] You don't have enough money to scan ($%i needed)!
+INFECTED_TXT = [BIOSCAN] %s is Infected!
+INFECTED_TXT2 = [BIOSCAN] The infection has spread!
+INFECTED_HUD = !!!WARNING!!!^n%s is Infected!
+INFECTED_HUD2 = !!!WARNING!!!^nThe infection has spread!
+MUTATION_HUD = You have mutated to a %s!
+WIN_TXT_ZOMBIES = Zombies win!
+WIN_TXT_SURVIVORS = Survivors win!
+MENU_TITLE1 = Equipments
+MENU_TITLE2 = Primary
+MENU_TITLE3 = Secondary
+MENU_TITLE4 = Select Zombie Class
+MENU_BACK = Back
+MENU_MORE = More
+MENU_EXIT = Exit
+MENU_NEWWEAPONS = New Weapons
+MENU_PREVSETUP = Previous Setup
+MENU_DONTSHOW = Don't show menu again
+MENU_REENABLED = Your equip menu has been re-enabled.
+MENU_ALENABLED = Your equip menu is already enabled.
+MENU_CMDENABLE = Type ^"/guns^" in chat to re-enable your equip menu.
+MENU_CHANGECLASS = You'll mutate into a %s next time you're infected.
+CMD_MAXZOMBIES = Max zombies reached.
+CMD_INFECTED = You have infected %s.
+CMD_TEAMCHANGE = You are not allowed to change team.
+CMD_GAMENOTSTARTED = Game has not started yet.
+SUICIDEPUNISH_TXT = You have been punished for committing suicide.
+WELCOME_TXT = This server is running Biohazard v#Version#. Type /help for more info.
+HUMAN1 = ADMIN: make human %s
+HUMAN2 = ADMIN %s: make human %s
+ZOMBI1 = ADMIN: make zombie %s
+ZOMBI2 = ADMIN %s: make zombie %s
+CMD_HUMAN = You have make as human %s.
+BUY_ZOMBIE = You don't have enough money for infect your ($%i needed).
+INFECT_YOU = You infected!
+LAST_ZOMBIE = You are the last zombie!
+LAST_HUMAN = You are the last human!
+HUMAN_BUY = You don't have enough money for use antivirus ($%i needed).
+GMS_A = Game not started!
+NO_INFECT_YOU = You don't infect!
+USE_ANTIVIRUS = You use antivirus!
+BIO_HEALTH = Health: %i
+BIO_ARMOR = Armor: %i
+BIO_CLASS = Class: %s (%s)
+HELP_MOTD :
+<html>
+	<head>
+		<style type="text/css">
+			pre
+			{
+				font-family:Verdana,Tahoma;
+				color:#FFFFFF;
+			}
+
+			body
+			{
+				background:#000000;
+				margin-left:8px;
+				margin-top:0px;
+			}
+		</style>
+	</head>
+
+	<body scroll="no">
+		<pre>
+			<img src="http://img182.imageshack.us/img182/904/bio3od0.jpg">^n
+			Biohazard v#Version# by cheap_suit^n^n
+			Modified <b>AlexALX</b> &copy; 2008-2010 by <b>Botov.NET.UA</b>^n^n
+			Biohazard gameplay is a classic zombie outbreak scenario.^n
+			Your goal is to fight off the zombies and avoid getting infected.^n
+			If you're unlucky and become infected, your new goal is to infect/kill the remaining survivors.^n^n
+			<b>Commands (chat/console):</b>^n^n
+			/menu to open main biohazard menu^n
+			/lang to select the language^n
+			/commands to open commands help^n
+			/class to open the class menu^n
+			/guns to enable the equip menu^n
+			/rules for view rules of server^n
+			/vipinfo - information about the VIP players^n^n
+			<b>Zahodite na sayt i forum servera! <span style="color: red">http://botov.net.ua/</span></b>
+		</pre>
+	</body>
+</html>
+:
+CMD_NOT = Only alive can use this command.
+CMD_STUCK = You are teleport to spawn in 15 seconds.
+CMD_STUCK_OK = You are teleported to spawn point.
+CMD_STUCK_ERR = Error, no free spawns found.
+CMD_STUCK_WAIT = Wait please...
+CMD_STUCK_LIFE = You have been respawn due to the death on spawn.
+CLOAK_DIE = You are die!
+CLOAK_COST = You don't have enough money to buy cloaking ($%i needed)!
+CLOAK_ZOMBIE = Only humans can buy cloaking!
+CLOAK_BUY = You bought a cloaking! It is active only when standing or walking slowly/duck.
+CLOAK_HAVE = You already bought a cloaking! It is active only when standing or walking slowly/duck.
+CLOAK_NHAVE = You not have cloaking! It is impossible to sell.
+CLOAK_SELL = You sold your cloaking! (+%i$)

@@ -1,0 +1,26 @@
+{
+  "EntranceExit": true,
+  "L_Ladders": false,
+  "mazeAutoZone": true,
+  "mazeTPAcess": 2,
+  "messages": {
+    "Usage": "<color=#FFB300>Usage: /maze NAME xSize ySize zSize GenType(0-4)</color>",
+    "TooLarge": "<color=#FFB300>For now maximum size of Lab is 10.000 cells, in case of lags</color>",
+    "RemoveReq": "<color=#FFB300>RemoverTool required to do so!</color>",
+    "MazeRm": "<color=#FFB300>Usage: /maze_rm name, type /maze_list for all mazes avail</color>",
+    "MazeErrorNotFound": "<color=#FFB300>Maze with name \"{0}\" not found!</color>",
+    "MazeNewError": "<color=#FFB300>Maze with name \"{0}\" already exists!</color>",
+    "MazeList": "<color=#81F23F>Next mazes are avaliable:</color>",
+    "MazeListEmpty": "<color=#FFB300>No Mazes avaliable!</color>",
+    "MazeNew": "<color=#81F23F>New maze created! SizeX: {0} - SizeY: {1} - SizeZ: {2}, Mode: {3}</color>",
+    "Enter_message": "<color=#81F23F>You are entering Labyrinth, good luck, stranger!</color>",
+    "TooSoonTP": "<color=#FFB300>You are trying to teleport too soon from last one!</color>",
+    "TPUsage": "<color=#FFB300>Usage: /maze_tp NAME, names are listed in /maze_list!</color>"
+  },
+  "topFloor": false,
+  "version": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 3
+  }
+}

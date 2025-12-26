@@ -1,0 +1,33 @@
+{
+  "Remove": {
+    "target": 2,
+    "basic": 0,
+    "admin": 2,
+    "all": 2
+  },
+  "RemoveTimer": {
+    "default": 30,
+    "max": 120
+  },
+  "Refund": {
+    "activated": false,
+    "all-grades": false,
+    "rate": 0.5
+  },
+  "ToolCupboard": {
+    "activated": false
+  },
+  "Messages": {
+    "NoAccess": "У вас нет прав для использования данной команды",
+    "cantRemove": "У вас нет прав, чтобы удалить данный предмет",
+    "tooFar": "Вы должны подойти ближе чтобы удалить это",
+    "noBuildingFound": "Не найдено ни одной структуры для удаления",
+    "noToolCupboard": "У вас должен стоять шкаф, чтобы удалить это",
+    "noToolCupboardAccess": "Чтобы сделать это, вам необходим доступ ко всем шкафам вокруг вас",
+    "noTargetFound": "Данный игрок не найден",
+    "helpBasic": "/remove Optional:Time - To remove start removing",
+    "helpAdmin": "/remove admin Optional:Time - To remove start removing anything",
+    "helpAll": "/remove all Optional:Time - To remove start removing an entire building",
+    "helpRay": "/rayremove - To remove the entire building that you are looking at"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "AllUserMessageBye": "USERNAME вышел(а)",
+  "AllUserMessage": "USERNAME зашел(а) на сервер",
+  "MultipleLineMessage": [
+    "<color='#00FF00'><size='36'>Добро пожаловать!</size></color>
+<color='#ffb400'>Вы зашли на сервер <color='#00FF00'>выживания</color> проекта:</color>
+<size='45'><color='#FF0000'>Botov.NET.UA</color></size>
+----------------
+<size='15'>Чтобы узнать команды сервера напишите <color='#00FF00'>/help</color>
+Чтобы прочитать информацию о сервере напишите <color='#00FF00'>/info</color>
+Чтобы получить наборы напишите <color='#00FF00'>/kit</color>
+Карта сервера: <color='#ffb400'>смотрите на сайте botov.net.ua</color>
+RaidCall канал: <color='#00FF00'>11077918</color>
+----------------
+<color='#00FF00'>Хотите узнать кто вас убил?</color>
+Напишите <color='#00FF00'>/log</color> чтобы узнать подробности.</size>"
+  ],
+  "ShowWelcomeMessage": "true",
+  "ShowConnected": "true",
+  "ShowDisconnected": "true",
+  "ChatName": "SERVER"
+}

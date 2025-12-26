@@ -1,0 +1,53 @@
+[ent_groups_only]
+ag_3 = admin,superadmin,add_shield,vip
+black_hole_power = admin,superadmin,add_shield,vip
+dakara_building = superadmin,add_shield
+horizon = admin,superadmin,add_shield,vip
+sg_turret_destmain = admin,superadmin,add_shield,vip,free_vip
+sg_turret_tollan = admin,superadmin,add_shield,vip,free_vip
+sg_vehicle_daedalus = admin,superadmin,add_shield,vip
+stargate_supergate = admin,superadmin,add_shield,vip,free_vip
+gate_overloader = player,reg_player,admin,superadmin,vip,free_vip
+asuran_gate_weapon = player,reg_player,admin,superadmin,vip,free_vip
+sg_turret_shiprail = player,reg_player,admin,superadmin,vip,free_vip
+asgard_beam = player,reg_player,admin,superadmin,vip,free_vip
+ori_beam_cannon = player,reg_player,admin,superadmin,vip,free_vip
+sg_turret_destmed = player,reg_player,admin,superadmin,vip,free_vip
+sg_turret_destsmall = player,reg_player,admin,superadmin,vip,free_vip
+launcher_drones = player,reg_player,admin,superadmin,vip,free_vip
+ori_satellite = player,reg_player,admin,superadmin,vip,free_vip
+stationary_railgun = player,reg_player,admin,superadmin,vip,free_vip
+staff_stationary = player,reg_player,admin,superadmin,vip,free_vip
+minidrone_platform = player,reg_player,admin,superadmin,vip,free_vip
+transporter = player,reg_player,admin,superadmin,vip,free_vip
+control_chair = player,reg_player,admin,superadmin,vip,free_vip
+puddle_jumper = player,reg_player,admin,superadmin,vip,free_vip
+sg_vehicle_shuttle = player,reg_player,admin,superadmin,vip,free_vip
+sg_vehicle_dart = player,reg_player,admin,superadmin,vip,free_vip
+ship_hangar = player,reg_player,admin,superadmin,vip,free_vip
+
+[swep_groups_only]
+ori_staff_weapon = reg_player,admin,superadmin,vip,free_vip
+weapon_asura = reg_player,admin,superadmin,vip,free_vip
+weapon_blaster = player,reg_player,admin,superadmin,vip,free_vip
+weapon_dexgun = reg_player,admin,superadmin,vip,free_vip
+weapon_staff = player,reg_player,admin,superadmin,vip,free_vip
+wraith_blaster = player,reg_player,admin,superadmin,vip,free_vip
+weapon_wraith = player,reg_player,admin,superadmin,vip,free_vip
+weapon_zat = player,reg_player,admin,superadmin,vip,free_vip
+v_virus = player,reg_player,admin,superadmin,vip,free_vip
+
+[tool_groups_only]
+naqbomb = admin,superadmin,vip
+tampered_zpm = admin,superadmin,vip
+wraith_bomb = player,reg_player,admin,superadmin,vip,free_vip
+drones = player,reg_player,admin,superadmin,vip,free_vip
+staff_weapon = player,reg_player,admin,superadmin,vip,free_vip
+ashen_weapon = player,reg_player,admin,superadmin,vip,free_vip
+wraith_harvester = player,reg_player,admin,superadmin,vip,free_vip
+
+[naq_gen_mk2]
+nuke_explode = false
+
+[MCD]
+tzmp_chance = 5

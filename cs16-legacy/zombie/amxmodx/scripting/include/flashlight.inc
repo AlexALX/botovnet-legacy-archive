@@ -1,0 +1,1 @@
+native reset_flash(index);

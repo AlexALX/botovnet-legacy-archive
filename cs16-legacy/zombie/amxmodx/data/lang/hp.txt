@@ -1,0 +1,23 @@
+[ru]
+HP_MONEY = У вас недостаточно денег чтобы купить мед аптечку. (нужно $%i).
+HP_FULL = У вас уже максимум HP.
+HP_OK = Вы купили и использовали мед аптечку (+%iHP)!
+HP_ZOMB = Зомби не могут покупать мед аптечки!
+HP_DEAD = Мёртвые игроки не могут покупать мед аптечки.
+AP_MONEY = У вас недостаточно денег чтобы купить броню. (нужно $%i).
+AP_FULL = У вас уже максимум брони.
+AP_OK = Вы купили и использовали броню (+%i брони)!
+AP_ZOMB = Зомби не могут покупать броню!
+AP_DEAD = Мёртвые игроки не могут покупать броню.
+
+[en]
+HP_MONEY = You don't have enough money to buy a medical kit. ($%i needed).
+HP_FULL = You already have full HP.
+HP_OK = You buy and use medical kit (+%iHP)!
+HP_ZOMB = Zombies can not buy medical kits!
+HP_DEAD = Dead clients are not allow to buy a medical kits!
+AP_MONEY = You don't have enough money to buy a armor. ($%i needed).
+AP_FULL = You already have full armor.
+AP_OK = You buy and use armor (+%i armor)!
+AP_ZOMB = Zombies can not buy armor!
+AP_DEAD = Dead clients are not allow to buy a armor!

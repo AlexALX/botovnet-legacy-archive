@@ -1,0 +1,11 @@
+{
+  "RemoveForPlayers": true,
+  "RemoveForModerators": false,
+  "Refund": {
+    "activated": true,
+    "refundrate": 0.5
+  },
+  "MaxAllowedTime": 120,
+  "DefaultActivationTime": 30,
+  "useToolCupboard": true
+}

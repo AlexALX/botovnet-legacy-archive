@@ -1,0 +1,17 @@
+{
+  "Messages": {
+    "NoFriends": "Вы не имеете друзей :(",
+    "FriendlistFull": "Ваш список друзей полон",
+    "CantAddSelf": "Вы не можете добавить сами себя",
+    "FriendAdded": "{target} теперь ваш друг",
+    "AlreadyOnList": "{target} уже ваш друг",
+    "HelpText": "используйте /friend <add|remove|list> <name/steamID> для добавления/удаления/списка друзей",
+    "FriendRemoved": "{target} был удалён с вашего списка друзей",
+    "PlayerNotFound": "Игрок не найден",
+    "List": "Друзья {count}: ",
+    "NotOnFriendlist": "{target} не найден в списке ваших друзей"
+  },
+  "Settings": {
+    "MaxFriends": 30
+  }
+}

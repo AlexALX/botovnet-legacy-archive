@@ -1,0 +1,11 @@
+[ru]
+YOU_UNBANUSER = Ваш ник числиться в списке разбаненых.
+YOU_NUNBANUSER = Ваш ник не числиться в списке разбаненых.
+UNBANUSERS = Разбаненые
+UNBANUSERS_NO = Нет разбаненых игроков.
+
+[en]
+YOU_UNBANUSER = Your nickname appears in the unbaned users.
+YOU_NUNBANUSER = Your nickname not appears in the unbaned users.
+UNBANUSERS = Unbaned
+UNBANUSERS_NO = No unbaned players.

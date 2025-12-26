@@ -1,0 +1,22 @@
+{
+  "Flyhack: activated": true,
+  "Flyhack: Log": true,
+  "Flyhack: Punish": true,
+  "Flyhack: Punish Detections": 3,
+  "MeleeSpeed Hack: activated": true,
+  "Settings: Ban Also Family Owner": true,
+  "Settings: FPS Ignore": 30,
+  "Settings: Ignore Hacks for authLevel": 1,
+  "Settings: Punish - 0 = Kick, 1 = Ban, 2 = Jail": 1,
+  "SpeedHack: activated": true,
+  "SpeedHack: Log": true,
+  "SpeedHack: Punish": true,
+  "SpeedHack: Punish Detections": 3,
+  "SpeedHack: Speed Detection": 10.0,
+  "Wallhack Kills: activated": true,
+  "Wallhack Kills: Log": true,
+  "Wallhack: activated": true,
+  "Wallhack: Log": true,
+  "Wallhack: Punish": true,
+  "Wallhack: Punish Detections": 2
+}

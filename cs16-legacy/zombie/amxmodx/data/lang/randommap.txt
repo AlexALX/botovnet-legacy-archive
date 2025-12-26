@@ -1,0 +1,7 @@
+[ru]
+RAND_1 = АДМИНИСТРАТОР сменил карту на случайную (random)
+RAND_2 = АДМИНИСТРАТОР %s сменил карту на случайную (random)
+
+[en]
+RAND_1 = ADMIN: changelevel random
+RAND_2 = ADMIN %s: changelevel random

@@ -1,0 +1,21 @@
+{
+  "Messages": {
+    "AdminCountMessage": "{count} admins online",
+    "AdminNameMessage": "{count} admins online: ",
+    "HelpText": "use /who or /online to show who's online",
+    "NoAdminMessage": "No admin online",
+    "OnePlayerMessage": "Вы единственый кто онлайн",
+    "PlayerCountMessage": "{count} игроков онлайн",
+    "PlayerNameMessage": "{count} игроков онлайн: "
+  },
+  "Settings": {
+    "ChatCommands": [
+      "who",
+      "online"
+    ],
+    "MaxPlayersPerLine": 8,
+    "OnlyShowAdminCount": "false",
+    "OnlyShowPlayerCount": "false",
+    "SeparateAdmins": "false"
+  }
+}

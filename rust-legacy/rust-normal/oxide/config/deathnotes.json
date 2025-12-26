@@ -1,0 +1,226 @@
+{
+  "ANIMALS": {
+    "STAG": [
+      "оленя",
+      "Олень",
+      "оленем"
+    ],
+    "CHICKEN": [
+      "курицу",
+      "Курица",
+      "курицой"
+    ],
+    "WOLF": [
+      "волка",
+      "Волк",
+      "волком"
+    ],
+    "BEAR": [
+      "медведя",
+      "Медведь",
+      "медведем"
+    ],
+    "BOAR": [
+      "кабана",
+      "Кабан",
+      "кабаном"
+    ],
+    "HORSE": [
+      "лошадь",
+      "Лошадь",
+      "лошадью"
+    ]
+  },
+  "BODYPARTS": {
+    "ARM": "Arm",
+    "CLAVICLE": "Clavicle",
+    "EAR": "Ear",
+    "EYE": "Eye",
+    "FINGERS": "Fingers",
+    "FOOT": "Feet",
+    "GROUP": "Group",
+    "HEAD": "Head",
+    "HIP": "Hip",
+    "JAW": "Jaw",
+    "JOINT": "Joint",
+    "LEFT CALF": "Left Calf",
+    "LEFT HAND": "Left Hand",
+    "LEFT KNEE": "Left Knee",
+    "LEFT SHOULDER": "Left Shoulder",
+    "LEFT TOE": "Left Toe",
+    "LEG": "Leg",
+    "LIP": "Lips",
+    "NECK": "Neck",
+    "PELVIS": "Pelvis",
+    "PENIS": "Penis",
+    "RIGHT CALF": "Right Calf",
+    "RIGHT HAND": "Right Hand",
+    "RIGHT KNEE": "Right Knee",
+    "RIGHT SHOULDER": "Right Shoulder",
+    "RIGHT TOE": "Right Toe",
+    "SPINE": "Spine",
+    "TAIL": "Tail",
+    "THIGH": "Thigh",
+    "WING": "Wing"
+  },
+  "COLORS": {
+    "ANIMAL": "#00FF00",
+    "ATTACKER": "#00FF00",
+    "BODYPART": "#00FF00",
+    "DISTANCE": "#00FF00",
+    "MESSAGE": "#FFFFFF",
+    "PREFIX": "#FF0000",
+    "VICTIM": "#00FF00",
+    "WEAPON": "#00FF00"
+  },
+  "CONFIG_VERSION": 3.1,
+  "MESSAGES": {
+    "ANIMAL DEATH": [
+      "{attacker} убил {animal} с {distance}м."
+    ],
+    "ANIMAL KILL": [
+      "{animal} убил {victim}.",
+      "{victim} был недостаточно быстр и был пойман {animal}."
+    ],
+    "ANIMAL KILL SLEEP": [
+      "{animal} сьел {victim} во время сна.",
+      "{victim} был съеден заживо {animal} во время сна."
+    ],
+    "ARROW": [
+      "{attacker} убил {victim} с {distance}м."
+    ],
+    "ARROW SLEEP": [
+      "{attacker} убил {victim} во время сна с {distance}м."
+    ],
+    "BARRICADE": [
+      "{victim} умер застряв в баррикаде.",
+      "{victim} умер попав в баррикаду."
+    ],
+    "BLEEDING": [
+      "{victim} умер от потери крови.",
+      "{victim} истёк кровью."
+    ],
+    "BLUNT": [
+      "{attacker} убил {victim}.",
+      "{attacker} забил {victim} до смерти."
+    ],
+    "BLUNT SLEEP": [
+      "{attacker} убил {victim} во время сна.",
+      "{attacker} забил {victim} до смерти, пока он спал."
+    ],
+    "BULLET": [
+      "{attacker} застрелил {victim} с {distance}м.",
+      "{attacker} заставил {victim} съесть пули с {distance}м."
+    ],
+    "BULLET SLEEP": [
+      "{attacker} убил {victim} во время сна с {distance}м.",
+      "{attacker} застрелил {victim} во время сна с {distance}м."
+    ],
+    "COLD": [
+      "{victim} замёрз до смерти.",
+      "{victim} превратился в сосульку.",
+      "{victim} окоченел до смерти.",
+	  "{victim} умер от переохлаждения."
+    ],
+    "DROWNED": [
+      "{victim} утонул.",
+      "{victim} думал, что он умеет плавать.",
+      "{victim} думал, что он мог дышать под водой.",
+	  "{victim} захлебнулся."
+    ],
+    "EXPLOSION": [
+      "{victim} разорвало на части.",
+      "{victim} взорвался."
+    ],
+    "FALL": [
+      "{victim} разбился насмерть.",
+      "{victim} думал, что он может летать.",
+      "{victim} думал, что он может прикоснуться к небу!",
+	  "{victim} упал и разбился"
+    ],
+    "HEAT": [
+      "{victim} сгорел.",
+      "{victim} сгорел заживо.",
+      "{victim} сгорел на костре."
+    ],
+    "HUNGER": [
+      "{victim} умер от голода.",
+      "{victim} был плохим охотником, и умер от голода."
+    ],
+    "POISON": [
+      "{victim} отравился.",
+      "{victim} был отравлен."
+    ],
+    "RADIATION": [
+      "{victim} умер от радиационого заражения.",
+      "{victim} не знал что радиация убивает.",
+	  "{victim} получил смертельную дозу облучения."
+    ],
+    "SLASH": [
+      "{attacker} разрезал {victim} на кусочки.",
+      "{attacker} раздробил {victim} на милион кусков."
+    ],
+    "SLASH SLEEP": [
+      "{attacker} разрезал {victim} на кусочки во время сна.",
+      "{attacker} убил {victim} во время сна."
+    ],
+    "STAB": [
+      "{attacker} зарезал {victim}.",
+      "{attacker} убил {victim}."
+    ],
+    "STAB SLEEP": [
+      "{attacker} зарезал {victim} во время сна.",
+      "{attacker} убил {victim}, пока он спал."
+    ],
+    "SUICIDE": [
+      "{victim} покончил жизнь самоубийством.",
+      "{victim} совершил самоубийство."
+    ],
+    "THIRST": [
+      "{victim} умер от жажды.",
+      "Обезвоживание убило {victim}...!"
+    ],
+    "TRAP": [
+      "{victim} наступил на капкан.",
+      "{victim} не смотрел куда наступает и попал в ловушку.",
+      "{victim} не смотрел под ноги и угодил в капкан."
+    ]
+  },
+  "SERVER": "3",
+  "SETTINGS": {
+    "BROADCAST TO CONSOLE": false,
+    "MESSAGES RADIUS": 700.0,
+    "PREFIX": "☠СМЕРТЬ☠",
+    "SHOW ANIMAL DEATH": true,
+    "SHOW ANIMAL KILL": true,
+    "SHOW BARRICADE DEATH": true,
+    "SHOW EXPLOSION DEATH": true,
+    "SHOW MESSAGE IN RADIUS": true,
+    "SHOW METABOLISM DEATH": true,
+    "SHOW PLAYER KILL": true,
+    "SHOW SUICIDES": true,
+    "SHOW TRAP DEATH": true
+  },
+  "WEAPONS": {
+    "AK47U": "AK47U",
+    "BOLTRIFLE": "Bolt Rifle",
+    "BONEKNIFE": "Bone Knife",
+    "EOKA": "Eoka Pistol",
+    "HATCHET": "Hatchet",
+    "HATCHET STONE": "Stone Hatchet",
+    "HUNTING": "Hunting Bow",
+    "PICKAXE": "Pickaxe",
+    "REVOLVER": "Revolver",
+    "ROCK": "Rock",
+    "SALVAGED AXE": "Salvaged Axe",
+    "SALVAGED HAMMER": "Salvaged Hammer",
+    "SALVAGED ICEPICK": "Salvaged Icepick",
+    "SAWNOFFSHOTGUN": "Sawn-off Shotgun",
+    "STONE PICKAXE": "Stone Pickaxe",
+    "STONE SPEAR": "Stone Spear",
+    "THOMPSON": "Thompson",
+    "TORCH": "Torch",
+    "WATERPIPE": "Waterpipe Shotgun",
+    "WOODEN SPEAR": "Wooden Spear"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Settings": {
+    "ChatName": "Time",
+    "Version": "1.0"
+  },
+  "Messages": {
+    "SetTimeSuccess": "Changing the time to {hour}, please wait a moment.",
+    "SyntaxCCommandSetTime": [
+      "A Syntax Error Occurred!",
+      "You can only use the env.time command as follows:",
+      "env.time <hour> - Sets the in-game time to the specified hour, 0 to 24."
+    ],
+    "FreezeTimeSuccess": "You have stopped the time from progressing.",
+    "TimeFrozen": "Время сейчас заморожено.",
+    "SyntaxCommandSetTime": [
+      "A Syntax Error Occurred!",
+      "You can only use the /settime command as follows:",
+      "/settime <hour> - Sets the in-game time to the specified hour, 0 to 24."
+    ],
+    "SetDayLengthSuccess": "You have modified the length of an in-game day to {minutes} minutes.",
+    "UnfreezeTimeAlreadyRunning": "Time is not frozen!",
+    "SyntaxCCommandSetNightLength": [
+      "A Syntax Error Occurred!",
+      "You can only use the env.nightlength command as follows:",
+      "env.nightlength <length> - Changes the duration of an in-game day to length.",
+      "Length is in minutes and needs to be a value between 5 and 720!"
+    ],
+    "Time": "Сейчас {time}",
+    "SyntaxCommandSetDayLength": [
+      "A Syntax Error Occurred!",
+      "You can only use the /setdaylength command as follows:",
+      "/setdaylength <length> - Changes the duration of an in-game day to length.",
+      "Length is in minutes and needs to be a value between 5 and 720!"
+    ],
+    "SetNightLengthSuccess": "You have modified the length of an in-game night to {minutes} minutes.",
+    "SyntaxCommandSetNightLength": [
+      "A Syntax Error Occurred!",
+      "You can only use the /setnightlength command as follows:",
+      "/setdaylength <length> - Changes the duration of an in-game day to length.",
+      "Length is in minutes and needs to be a value between 5 and 720!"
+    ],
+    "UnfreezeTimeSuccess": "You have started time progression.",
+    "FreezeTimeAlreadyFrozen": "Time is already frozen!",
+    "SyntaxCCommandSetDayLength": [
+      "A Syntax Error Occurred!",
+      "You can only use the env.daylength command as follows:",
+      "env.daylength <length> - Changes the duration of an in-game day to length.",
+      "Length is in minutes and needs to be a value between 5 and 720!"
+    ]
+  }
+}

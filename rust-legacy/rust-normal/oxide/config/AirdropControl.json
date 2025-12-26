@@ -1,0 +1,18 @@
+{
+  "Airdrop": {
+    "Speed": 40.0
+  },
+  "Drop": {
+    "MaxCrates": 3,
+    "MaxDropCratesInterval": 10,
+    "MaxX": 5000,
+    "MaxY": 300.0,
+    "MaxZ": 5000,
+    "MinCrates": 1,
+    "MinDropCratesInterval": 3,
+    "MinX": -5000,
+    "MinY": 200.0,
+    "MinZ": -5000,
+    "ShowDropLocation": false
+  }
+}

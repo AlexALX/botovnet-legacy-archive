@@ -1,0 +1,208 @@
+{
+  "AutoKits": {
+    "overrideDefaultKit": false,
+    "wear": [],
+    "main": [],
+    "allowed": true,
+    "RustDefaultKit": [
+      "Torch",
+      "Rock"
+    ],
+    "belt": [
+      {
+        "name": "Rock",
+        "amount": 1
+      }
+    ]
+  },
+  "AuthLevel": 1,
+  "Messages": {
+    "NoKitAvaible": "На данный момент для вас нет доступных наборов.",
+    "InvalidItem": "Неверный предмет в наборе",
+    "KitList": "Доступные наборы:",
+    "HelpMessage": "/kit - to get the list of kits",
+    "CoolDown": "Этот набор все еще недоступен",
+    "NoKitLeft": "Вы не можее больше активировать данный набор",
+    "NoPermissionKit": "Недостаточно прав для использования данного набора",
+    "ErrorKit": "Этот набор не существует, напишите /kit чтобы получить список всех наборов",
+    "GiveKit": "был успешно использован.",
+    "GiveKitNext": "Следующая активация будет доступна через"
+  },
+  "KitsOrder": [ "wipe", "botovnet", "weapon", "dom", "one", "fakel" ],
+  "Kits": {
+    "botovnet": {
+      "cooldown": 14400,
+      "cooldowntxt": "4 часа",
+      "main": [
+        {
+          "name": "spear_stone",
+          "amount": 1
+        },
+        {
+          "name": "bow_hunting",
+          "amount": 1
+        },
+        {
+          "name": "arrow_wooden",
+          "amount": 15
+        },
+        {
+          "name": "largemedkit",
+          "amount": 1
+        },
+        {
+          "name": "bandage",
+          "amount": 2
+        },
+        {
+          "name": "chicken_cooked",
+          "amount": 10
+        },
+        {
+          "name": "wolfmeat_cooked",
+          "amount": 10
+        }
+      ],
+      "wear": [
+        {
+          "name": "attire.hide.boots",
+          "amount": 1
+        },
+        {
+          "name": "attire.hide.poncho",
+          "amount": 1
+        },
+        {          "name": "attire.hide.vest",
+          "amount": 1
+        }
+      ],
+      "description": "Стартовый набор охотника от Botov.NET.UA",
+      "givedesc": "Стартовый набор"
+    },
+    "weapon": {
+      "cooldown": 259200,
+      "cooldowntxt": "3 дня",
+      "main": [
+        {
+          "name": "pistol_revolver",
+          "amount": 1
+        },
+        {
+          "name": "ammo_pistol",
+          "amount": 60
+        },
+        {
+          "name": "smg_thompson",
+          "amount": 1
+        },
+        {
+          "name": "rifle_ak",
+          "amount": 1
+        },
+        {
+          "name": "ammo_rifle",
+          "amount": 40
+        },
+      ],
+      "description": "Оружейный набор",
+      "givedesc": "Оружейный набор"
+    },
+    "fakel": {
+      "cooldown": 15,
+      "cooldowntxt": "15 секунд",
+      "main": [
+        {
+          "name": "torch",
+          "amount": 1
+        }
+      ],
+      "description": "Бесплатный факел",
+      "givedesc": "Бесплатный факел"
+    },
+    "dom": {
+      "max": 4,
+      "main": [
+        {
+          "name": "hammer",
+          "amount": 1
+        },
+        {
+          "name": "building_planner",
+          "amount": 1
+        },
+        {
+          "name": "wood",
+          "amount": 12000
+        },
+        {
+          "name": "stones",
+          "amount": 3000
+        }
+      ],
+      "description": "Набор строителя",
+      "givedesc": "Набор строителя"
+    },
+    "one": {
+      "max": 1,
+      "main": [
+        {
+          "name": "metal_fragments",
+          "amount": 2000
+        },
+        {
+          "name": "lock.code",
+          "amount": 1
+        },
+        {
+          "name": "sleepingbag",
+          "amount": 1
+        },
+        {
+          "name": "box_wooden_large",
+          "amount": 1
+        },
+        {
+          "name": "cupboard.tool",
+          "amount": 1
+        },
+        {
+          "name": "metal_plate_torso",
+          "amount": 1
+        },
+        {
+          "name": "bucket_helmet",
+          "amount": 1
+        },
+        {
+          "name": "pickaxe",
+          "amount": 1
+        },
+        {
+          "name": "hatchet",
+          "amount": 1
+        }
+      ],
+      "description": "Одноразный набор для новых игроков",
+      "givedesc": "Одноразовый набор"
+    },
+    "wipe": {
+      "max": 1,
+      "main": [
+        {
+          "name": "metal_fragments",
+          "amount": 120000
+        },
+        {
+          "name": "wood",
+          "amount": 150000
+        },
+        {
+          "name": "stones",
+          "amount": 120000
+        }
+      ],
+      "description": "<color='#FF0000'>Компенсация за вайп - приносим свои извинения</color>",
+      "givedesc": "Компенсация за вайп"
+    }
+  }
+}

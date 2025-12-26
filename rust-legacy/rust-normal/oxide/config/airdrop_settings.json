@@ -1,0 +1,34 @@
+{
+  "Messages": {
+    "MinNumberChanged": "Minimum number of players successfully changed to {number}.",
+    "DropFrequencyChanged": "Frequency drop supplies successfully changed to {number}.",
+    "PlaneRemovedTrigger": "Cargo Plane has removed. The event was triggered not by timer.",
+    "PlaneLaunched": "Cargo Plane has launched!",
+    "SupplyLanded": "Supply has landed at coordinates X: {x} Y: {y} Z: {z}",
+    "DontHaveAccess": "You don't have access!",
+    "LootReset": "Custom loot successfully reset to the default settings.",
+    "DropFrequencyExplain": "Specify the frequency drop supplies in minutes. Example: /airdrop_freq 60",
+    "SupplyRemoveExplain": "Time in minutes after which the supply is removed. Example: /airdrop_stay 30",
+    "MinNumberExplain": "Specify the minimum number of players. Example: /airdrop_min 3",
+    "PlaneRemovedMin": "Cargo Plane has removed. Minimum number of players: {number}.",
+    "PlaneSpawned": "Cargo Plane has spawned.",
+    "SupplyRemoveChanged": "Time after which the supply is removed changed to {number}."
+  },
+  "AirdropSettings": {
+    "NotifyAirdropStart": false,
+    "CustomSupplyLoot": true,
+    "MinimumPlayers": 2,
+    "SupplyStayTime": 60,
+    "ArrowSize": 4,
+    "ArrowEnabled": false,
+    "ArrowTime": 60,
+    "ArrowLength": 15,
+    "NotifySupplyLanded": false,
+    "ManualRunDrop": true,
+    "DropFrequency": 30
+  },
+  "PluginSettings": {
+    "Version": "1.0.0",
+    "Title": "Airdrop Settings"
+  }
+}

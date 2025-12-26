@@ -1,0 +1,15 @@
+{
+  "Admin_Auth_LvL": 2,
+  "Chat_Command": "espawn",
+  "Messages": {
+    "ChatName": "[Spawner]",
+    "EntityNo": "Entity with this name can't be created!",
+    "ModeOff": "Spawner mode disabled!",
+    "ModeOn": "Spawner mode enabled!",
+    "NoPerm": "No Permission!",
+    "Succes": "Entity spawned!",
+    "SyntaxError": "/%s [entity_name/false] [health] [true/false](sleeping?) [player_name]"
+  },
+  "Spawn_List_Generate": false,
+  "Spawn_List_Name": "Spawn List"
+}

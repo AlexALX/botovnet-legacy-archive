@@ -1,0 +1,18 @@
+{
+  "Added to queue": "Ваша картинка добавлена в очередь загрузки!",
+  "Command cooldown after storage": 180.0,
+  "Command cooldown after url": 180.0,
+  "Command cooldown msg": "Вы недавно использовали данную команду! Вы должны подождать: {time}",
+  "Error": "Ошибка загрузки изображения! Ошибка: {error}",
+  "Loaded": "Изображение загружено на табличку!",
+  "Log format": "[Sign Artist] Player[{steam} {name}] loaded {id} image from {url}!",
+  "Log url console": true,
+  "Max active uploads": 3,
+  "Max file size(KB)": 2048,
+  "Max sign detection distance": 2.0,
+  "No sign": "Вы должны подойти/посмотреть на табличку ближе!",
+  "NoPermission": "Недостаточно прав для использования данной команды!",
+  "Not Exists": "Файл с таким названием не существует в папке!",
+  "Not your sign": "Вы не можете изменить данную табличку! (защищёна шкафом)",
+  "Syntax": "Syntax: /sil <URL> | /sil s <number>"
+}
