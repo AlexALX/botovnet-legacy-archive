@@ -110,7 +110,8 @@ public check_motd(id) {
 }*/
 
 public check_slot(id)
-{	new maxplayers = get_maxplayers()
+{
+	new maxplayers = get_maxplayers()
 	new players = get_playersnum(1)
 	new limit = maxplayers - get_pcvar_num(g_ResPtr)
 

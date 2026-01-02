@@ -92,7 +92,8 @@ stock fm_set_rendering(entity, fx = kRenderFxNone, r = 255, g = 255, b = 255, re
 	return 1
 }
 
-public newround() {
+public newround() {
+
 	if(!get_pcvar_num(cvar_smokeflare))
 		return PLUGIN_CONTINUE
 

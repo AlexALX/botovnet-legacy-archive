@@ -1,4 +1,4 @@
-/*  
+/*
  * This plugin was created for Botov-NET Project
  * It allow respawn any player for admins
  *
@@ -208,7 +208,8 @@ displaySpawnMenu(id, pos)
 				} else {
 					len += format(menuBody[len], 511-len, g_coloredMenus ? "%d. %s \r*\y\R%s^n\w" : "%d. %s *   %s^n", ++b, name, team)
 				}
-			} else {
+			} else {
+
 				if (is_user_alive(i)) {
 					len += format(menuBody[len], 511-len, g_coloredMenus ? "%d. %s *\y\R%s^n\w" : "%d. %s *   %s^n", ++b, name, team)
 				} else {
