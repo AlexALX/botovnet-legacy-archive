@@ -1,0 +1,14 @@
+// overview description file for de_tw_small2.bsp
+
+global 
+{
+	ZOOM	1.27
+	ORIGIN	68.50 	-107.00	-683.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/de_tw_small2.bmp"
+	HEIGHT	-683.00
+}

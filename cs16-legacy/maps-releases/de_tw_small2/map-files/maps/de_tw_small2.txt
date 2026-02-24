@@ -1,0 +1,18 @@
+Triple Worlds Small Optimized Edition - Bomb/Defuse
+by AlexALX (alexalx@bigmir.net)
+====
+OPISANIYE KARTU TYT!
+http://botov.net.ua/forum/index.php?showtopic=951
+KTO ZABLUDILSA - 4ITAEM :)
+====
+Counter-Terrorists: Prevent Terrorists
+from bombing chemical weapon crates.
+Team members must defuse any bombs
+that threaten targeted areas.
+
+Terrorists: The Terrorist carrying the
+C4 must destroy one of the chemical
+weapon stashes.
+
+Other Notes: There are 2 chemical
+weapon stashes in the mission.
