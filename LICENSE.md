@@ -10,7 +10,7 @@ These components are distributed under **their original licenses**. No single li
 | Component | License |
 |-----------|---------|
 | CS 1.6 / plugins | GNU GPL or Affero GPL or unknown (specified in individual files)
-| CS 1.6 / map sources | CC BY-SA 4.0
+| CS 1.6 / map sources/releases | CC BY-SA 4.0
 | Rust / plugins | MIT License
 | GMod plugins | MIT License **or** Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (check file headers)
 | WOT plugin/iss | MIT License

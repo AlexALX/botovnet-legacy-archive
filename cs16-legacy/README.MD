@@ -35,7 +35,7 @@ for their own projects.
 - **Custom plugins**: mostly GNU GPL License (see individual plugin headers)
 - **Configs and plugin list**: free to use, no restrictions
 - **Web script**: MIT License
-- **Map sources**: CC BY-SA 4.0
+- **Map sources/releases**: CC BY-SA 4.0
 - **Other server files / assets**: not included
 
 > You are free to study, modify, and reuse the included plugins, configs,
