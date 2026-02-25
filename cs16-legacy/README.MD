@@ -24,8 +24,8 @@ for their own projects.
 - `gungame/` — GunGame server setup, just plugin list / configuration files
 - `zombie/` — Unique Zombie server setup, custom plugins + custom configuration files
 - `common/` — unique plugin were used on project, like VIP system etc
-- `maps-sources/` - rmf map sources of all my maps for cs 1.6
-- `maps-releases/` - bsp (compiled) files of all my maps for cs 1.6 (some assets are excluded)
+- `maps/sources/` - rmf map sources of all my maps for cs 1.6
+- `maps/releases/` - bsp (compiled) files of all my maps for cs 1.6 (some assets are excluded)
 - `plugin-releases/` - plugins were officially published on my old website
 
 ---
